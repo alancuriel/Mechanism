@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "951d63cf-5714-4435-8271-ac02cc5ba236",
+            "Value": {
+                "id": "626dce42-ff63-4028-8692-6180b616c836",
+                "resourcePath": "objects\\obj_square\\obj_square.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95d24bda-b04f-430e-8b6f-a8ef8175b4d4",
             "Value": {
                 "id": "9e46bac6-f31e-4b2c-9e7e-328c12016787",
