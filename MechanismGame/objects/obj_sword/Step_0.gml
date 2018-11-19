@@ -82,3 +82,20 @@ if(getcurrentswing)
 	if(lastswing == 6) {upswing = 1; swing = true;}
 	getcurrentswing = 0;
 }
+
+
+if(playerrecall)
+{
+	sprite_index = spr_sword2;
+	
+	direction = point_direction(x,y - 200,obj_player.x,obj_player.y);
+	image_angle = direction - 90;
+	
+	speed = 20;
+	
+	if(place_meeting(x,y,obj_player))
+	{
+		instance_destroy();
+	}
+	
+}

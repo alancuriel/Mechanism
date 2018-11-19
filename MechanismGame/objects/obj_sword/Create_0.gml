@@ -15,4 +15,7 @@ lastswing = 0;//# for the last swing done
 
 swing = true;
 
-getcurrentswing = 0;
+getcurrentswing = 0;//checks last swing to determine movement for next swing
+
+playerrecall = 0;
+
