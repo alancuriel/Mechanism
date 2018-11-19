@@ -116,37 +116,50 @@ if(right_click)
 }
 */
 
-if(left_click)
+if(left_click && !weaponout)
 {
 	if(key_up)
 	{
 		with(instance_create_layer(x,y-240,"Instances",obj_sword))
 		{
-			direction = -60;
-			stepsActive = 10;
-			
-			
+			image_angle = 40;
+			starting_angle = image_angle;
+			upswing = 1;
 		}
+		weaponout = true;
 	}
 	else if( image_xscale >= 0)
 	{
-		with(instance_create_layer(x+50,y,"Instances",obj_sword))
+		with(instance_create_layer(x+50,y-240,"Instances",obj_sword))
 		{
 			image_angle = 320;
-			angleDir = -1;
-			stepsActive = 15;
+			starting_angle = image_angle;
+			rswing = 1;
 		}
+		weaponout = true;
 	}
 	else
 	{
-		with(instance_create_layer(x-50,y,"Instances",obj_sword2))
+		with(instance_create_layer(x-50,y-240,"Instances",obj_sword))
 		{
 			image_angle = 40;
-			angleDir = 1;
-			stepsActive = 15;
+			starting_angle = image_angle;
+			lswing = 1
+			
 		}
+		weaponout = true;
 	}
 }
+
+if(weaponout && left_click)
+{
+	with(obj_sword)
+	{
+		getcurrentswing = 1;
+	}
+}
+
+
 
 if(hsp != 0) image_xscale = sign(hsp);
 
