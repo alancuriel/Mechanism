@@ -19,3 +19,4 @@ getcurrentswing = 0;//checks last swing to determine movement for next swing
 
 playerrecall = 0;
 
+sprite_set_offset(spr_sword, 67,599);

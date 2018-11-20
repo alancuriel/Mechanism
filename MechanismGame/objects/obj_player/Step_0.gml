@@ -45,12 +45,72 @@ if(place_meeting(x, y + vsp, obj_block))
 y = y + vsp;
 
 
+if(!place_meeting(x,y+1,obj_block))
+{
+	/*sprite_index = spr_prs_jump;
+	image_speed = 1;
+	
+	if(vsp > 0) 
+	{
+		image_speed = 0;
+		image_index = 3;
+	}*/
+}
+else
+{
+		image_speed = 1;
+		if(hsp == 0)
+		{
+			sprite_index = spr_player_body_1_idle;
+		}
+		else
+		{
+			//sprite_index = sprt_prs_run;
+		}
+		
+	
+}
 
-if(left_click && !weaponout)
+
+
+/*THRUST
+if(right_click)
 {
 	if(key_up)
 	{
-		with(instance_create_layer(x,y-240,"Instances",obj_sword))
+		with(instance_create_layer(x,y,"Instances",obj_sword))
+		{
+			direction = 90;
+			speed = 9;
+		}
+	}
+	else if( image_xscale >= 0)
+	{
+		with(instance_create_layer(x,y,"Instances",obj_sword))
+		{
+			image_angle = 270;
+			speed = 9;
+		}
+	}
+	else
+	{
+		with(instance_create_layer(x,y,"Instances",obj_sword))
+		{
+			image_angle = 90;
+			direction = 180;
+			speed = 9;
+		}
+	}
+}
+*/
+
+
+if(left_click && !weaponout)
+{
+	
+	if(key_up)
+	{
+		with(instance_create_layer(x,y-240,"SwordLayer",obj_sword))
 		{
 			image_angle = 40;
 			starting_angle = image_angle;
@@ -60,7 +120,7 @@ if(left_click && !weaponout)
 	}
 	else if( image_xscale >= 0)
 	{
-		with(instance_create_layer(x+50,y-240,"Instances",obj_sword))
+		with(instance_create_layer(x+50,y-240,"SwordLayer",obj_sword))
 		{
 			image_angle = 320;
 			starting_angle = image_angle;
@@ -70,7 +130,7 @@ if(left_click && !weaponout)
 	}
 	else
 	{
-		with(instance_create_layer(x-50,y-240,"Instances",obj_sword))
+		with(instance_create_layer(x-50,y-240,"SwordLayer",obj_sword))
 		{
 			image_angle = 40;
 			starting_angle = image_angle;
@@ -95,9 +155,12 @@ if(weaponout && key_r)
 	{
 		
 		playerrecall = 1;
+		image_xscale = -1;
+		
 	}
 	weaponout = false;
 }
+
 
 
 if(hsp != 0) image_xscale = sign(hsp);

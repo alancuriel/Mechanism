@@ -85,13 +85,11 @@ if(getcurrentswing)
 
 
 if(playerrecall)
-{
-	sprite_index = spr_sword2;
+{	
+	//direction = point_direction(x,y,obj_player.x,obj_player.y);
+	//image_angle = direction - 90;
 	
-	direction = point_direction(x,y - 200,obj_player.x,obj_player.y);
-	image_angle = direction - 90;
-	
-	speed = 20;
+	//speed = 20;
 	
 	if(place_meeting(x,y,obj_player))
 	{
