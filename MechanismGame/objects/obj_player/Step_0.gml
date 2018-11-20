@@ -17,7 +17,9 @@ vsp = vsp + grv;
 
 if(place_meeting(x, y + 1, obj_block) && key_jump)
 {
-	vsp = -7;
+	vsp = -8;
+	sprite_index = spr_player_body_1_jump;
+	image_speed = 1;
 }
 
 //Horizontal Collision
@@ -47,14 +49,20 @@ y = y + vsp;
 
 if(!place_meeting(x,y+1,obj_block))
 {
-	/*sprite_index = spr_prs_jump;
-	image_speed = 1;
 	
-	if(vsp > 0) 
+	
+	
+	
+	
+	if(floor(vsp) == 0)
 	{
-		image_speed = 0;
-		image_index = 3;
-	}*/
+		image_index = 4;
+		image_speed = 1;
+	}
+	
+	
+	
+	
 }
 else
 {
@@ -155,7 +163,7 @@ if(weaponout && key_r)
 	{
 		
 		playerrecall = 1;
-		image_xscale = -1;
+		instance_destroy();
 		
 	}
 	weaponout = false;
