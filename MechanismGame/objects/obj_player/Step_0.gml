@@ -18,7 +18,10 @@ vsp = vsp + grv;
 if(place_meeting(x, y + 1, obj_block) && key_jump)
 {
 	vsp = -8;
-	sprite_index = spr_player_body_1_jump;
+	sprite_index = spr_player_1_jmp;
+	with(obj_player_back_cloak_1){visible =0}
+	with(obj_player_front_cloak_1){visible =0}
+	with(obj_player_head_1){visible =0}
 	image_speed = 1;
 }
 
@@ -69,6 +72,9 @@ else
 		image_speed = 1;
 		if(hsp == 0)
 		{
+				with(obj_player_back_cloak_1){visible =1}
+			with(obj_player_front_cloak_1){visible =1}
+			with(obj_player_head_1){visible =1}
 			sprite_index = spr_player_body_1_idle;
 		}
 		else
