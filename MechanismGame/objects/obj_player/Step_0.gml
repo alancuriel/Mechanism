@@ -72,7 +72,7 @@ else
 		image_speed = 1;
 		if(hsp == 0)
 		{
-				with(obj_player_back_cloak_1){visible =1}
+			with(obj_player_back_cloak_1){visible =1}
 			with(obj_player_front_cloak_1){visible =1}
 			with(obj_player_head_1){visible =1}
 			sprite_index = spr_player_body_1_idle;
@@ -124,7 +124,7 @@ if(left_click && !weaponout)
 	
 	if(key_up)
 	{
-		with(instance_create_layer(x,y-240,"SwordLayer",obj_sword))
+		with(instance_create_layer(x,y,"SwordLayer",obj_sword))
 		{
 			image_angle = 40;
 			starting_angle = image_angle;
@@ -134,7 +134,7 @@ if(left_click && !weaponout)
 	}
 	else if( image_xscale >= 0)
 	{
-		with(instance_create_layer(x+50,y-240,"SwordLayer",obj_sword))
+		with(instance_create_layer(x,y,"SwordLayer",obj_sword))
 		{
 			image_angle = 320;
 			starting_angle = image_angle;
@@ -144,7 +144,7 @@ if(left_click && !weaponout)
 	}
 	else
 	{
-		with(instance_create_layer(x-50,y-240,"SwordLayer",obj_sword))
+		with(instance_create_layer(x,y,"SwordLayer",obj_sword))
 		{
 			image_angle = 40;
 			starting_angle = image_angle;
