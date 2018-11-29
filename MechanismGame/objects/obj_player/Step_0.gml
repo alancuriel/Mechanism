@@ -3,6 +3,7 @@ key_left = keyboard_check(0x41);
 key_right = keyboard_check(0x44);
 key_up = keyboard_check(0x57);
 key_jump = keyboard_check_pressed(vk_space);
+key_jump_held = keyboard_check(vk_space);
 left_click = mouse_check_button_pressed(mb_left);
 right_click = mouse_check_button_pressed(mb_right);
 key_r = keyboard_check_pressed(0x52);
@@ -17,12 +18,21 @@ vsp = vsp + grv;
 
 if(place_meeting(x, y + 1, obj_block) && key_jump)
 {
-	vsp = -8;
-	sprite_index = spr_player_1_jmp;
-	with(obj_player_back_cloak_1){visible =0}
-	with(obj_player_front_cloak_1){visible =0}
-	with(obj_player_head_1){visible =0}
+	vsp = jump;
+	with(obj_player_cape_head) 
+	{
+		sprite_index = spr_player_1_cape_head_jump;
+		image_index = 1;
+	}
+	sprite_index = spr_player_1_body_jump;
+	image_index = 1;
 	image_speed = 1;
+}
+
+//variable jumping
+if((vsp < 0) && (!key_jump_held))
+{
+	vsp = max(vsp, 0);
 }
 
 //Horizontal Collision
@@ -72,10 +82,9 @@ else
 		image_speed = 1;
 		if(hsp == 0)
 		{
-			with(obj_player_back_cloak_1){visible =1}
-			with(obj_player_front_cloak_1){visible =1}
-			with(obj_player_head_1){visible =1}
-			sprite_index = spr_player_body_1_idle;
+			
+			sprite_index = spr_player_1_body_idle;
+			with(obj_player_cape_head) sprite_index = spr_player_1_cape_head_idle;
 		}
 		else
 		{
