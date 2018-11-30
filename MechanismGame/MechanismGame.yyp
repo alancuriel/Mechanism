@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "ba2a2111-97b7-430c-9210-7f7941f6d1de",
+            "Value": {
+                "id": "b0842662-75e9-485f-a0a3-b04dd3199fcb",
+                "resourcePath": "sounds\\snd_moon_bog_music\\snd_moon_bog_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "baeba477-60e2-4dab-ad3f-ea2242f3bebb",
             "Value": {
                 "id": "f7e00b55-b862-4dd2-bd6d-4e7216195d98",
@@ -900,6 +908,14 @@
                 "id": "4540738c-6795-409b-b801-729ef15f5284",
                 "resourcePath": "views\\ed6fb371-baa9-40a6-a789-65d664c27e2d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee5183e8-8ce8-40c1-9b93-e4cf88112d3d",
+            "Value": {
+                "id": "4fe500a2-96d6-4ed1-9213-5b0e492161e1",
+                "resourcePath": "sounds\\snd_armoury_music\\snd_armoury_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {

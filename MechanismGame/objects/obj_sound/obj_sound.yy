@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_sound",
     "eventList": [
-        
+        {
+            "id": "07a83257-c76e-45a6-a58a-19be652cd607",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e1be8ca6-e074-42d2-aa84-6fd626da9339"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
