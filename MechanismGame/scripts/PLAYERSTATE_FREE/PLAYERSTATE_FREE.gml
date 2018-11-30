@@ -63,7 +63,8 @@ else
 		}
 		else
 		{
-			//sprite_index = sprt_prs_run;
+			sprite_index = spr_player_1_body_walk;
+			with(obj_player_cape_head) sprite_index = spr_player_1_cape_head_walk;
 		}
 }
 
@@ -84,6 +85,7 @@ if((buffer > 0) && (swingTimer < 0))
 	}
 	else
 	{
+		audio_play_sound(snd_player_1_attack_up, 1, false);
 		state = PLAYERSTATE.ATTACK_COMBO
 	}
 	buffer--;
