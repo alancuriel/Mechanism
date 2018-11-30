@@ -39,6 +39,8 @@ with(obj_swrd)
 				{
 					hsp = -hsp;
 					vsp = -3;
+					flash = 3;
+					hp = hp -50;
 				}
 			}
 		}

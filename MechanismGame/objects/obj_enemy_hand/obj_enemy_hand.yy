@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "76ae79af-e599-4cb8-8e4c-17124110df50"
+        },
+        {
+            "id": "af9eb8f2-d41c-4437-9fa5-0b99949e3ec3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "76ae79af-e599-4cb8-8e4c-17124110df50"
         }
     ],
     "maskSpriteId": "cdf3b373-f47c-411d-b7ab-aaca3ff8b150",
@@ -167,6 +177,34 @@
             "value": "HAND_STATE.PATROL",
             "varName": "currentstate",
             "varType": 4
+        },
+        {
+            "id": "fa6d0800-8c68-4f7f-898a-7898610a4adf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "29cffcfa-9ee4-4b88-a3be-f62c91966c0f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "flash",
+            "varType": 0
         }
     ],
     "solid": false,

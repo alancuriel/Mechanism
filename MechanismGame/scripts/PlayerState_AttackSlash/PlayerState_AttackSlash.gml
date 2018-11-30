@@ -26,6 +26,7 @@ if(sprite_index != spr_player_1_body_attack_down)
 
 with(obj_swrd)
 {
+	
 	followPlayer = false;
 	mask_index = spr_player_1_sword_attack_downHB;
 	
@@ -43,6 +44,9 @@ with(obj_swrd)
 				{
 					hsp = -hsp;
 					vsp = -3;
+					
+					flash = 3;
+					hp = hp -50;
 				}
 			}
 		}

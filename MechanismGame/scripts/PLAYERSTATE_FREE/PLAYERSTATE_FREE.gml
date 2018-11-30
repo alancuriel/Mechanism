@@ -79,6 +79,7 @@ if((buffer > 0) && (swingTimer < 0))
 	swingTimer = 20;
 	if(lastAttackState == PLAYERSTATE.ATTACK_COMBO)
 	{
+		audio_play_sound(snd_player_1_attack_down,1,false);
 		state = PLAYERSTATE.ATTACK_SLASH;
 	}
 	else
