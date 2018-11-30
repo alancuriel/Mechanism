@@ -23,20 +23,44 @@ if(place_meeting(x, y + vsp, obj_block))
 	{
 			y = y + sign(vsp);
 	}
-	
 	vsp = 0;
 }
 y = y + vsp;
 
+switch(currentstate)
+{
+	case HAND_STATE.PATROL:
+		HandPatrol(other);
+	break;
+case HAND_STATE.ATTACK:
+	
+	break;
+	case HAND_STATE.SNEAK:
+	
+	break;
+	case HAND_STATE.RETREAT:
+	
+	break;
+}
 
 //Player Aggro
-if(abs(xtarget) < 300)
+if(abs(xtarget) < 300 && xtarget != 0)
 {
 	image_xscale = sign(xtarget);
 	
 	if(wait <= 0)
-	{	
-		hsp = walkspd * sign(xtarget);
+	{	if(obj_player.hsp == 0) 
+		{
+			if(abs(xtarget) < 125)
+			{
+				vsp = -7;
+				hsp = walkspd * sign(xtarget);
+			}
+			else
+			{
+				hsp = (walkspd/3) * sign(xtarget);
+			}
+		}
 	}
 	else
 	{
@@ -45,5 +69,6 @@ if(abs(xtarget) < 300)
 }
 else
 {
-	wait = 60;
+	hsp = 0;
+	wait = 120;
 }

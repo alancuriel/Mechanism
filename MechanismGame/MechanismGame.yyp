@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "28e01443-a731-4d32-953e-ff9dbe8ec3cb",
+            "Value": {
+                "id": "ff7f3b90-5003-4e3b-b960-c2100b4f96f1",
+                "resourcePath": "sprites\\spr_player_1_sword_attack_down\\spr_player_1_sword_attack_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2951079f-8954-420c-9d40-de4444de1a8d",
             "Value": {
                 "id": "bdc40840-1c03-4a1a-ad92-335385fb8ac6",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "30d278c1-ad78-42b5-a363-6e26e364eced",
+            "Value": {
+                "id": "593067bb-c2d9-41df-890c-337e6f8c2347",
+                "resourcePath": "sprites\\spr_player_1_cape_head_attack_up\\spr_player_1_cape_head_attack_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30d9f5f4-9a59-46ba-874f-bee13e83e281",
             "Value": {
                 "id": "ce99f4d0-2069-4116-8a10-a337ca4b8a31",
@@ -251,6 +267,14 @@
             "Value": {
                 "id": "728ecc18-c9df-439e-8a77-b687a83dd634",
                 "resourcePath": "sprites\\spr_ground_brick\\spr_ground_brick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "360d8300-295a-4e08-aab2-7d4b823dff8c",
+            "Value": {
+                "id": "38f22cd7-8ea3-4e42-a0b4-08412f8148aa",
+                "resourcePath": "sprites\\spr_player_1_body_attack_down\\spr_player_1_body_attack_down.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -583,11 +607,43 @@
             }
         },
         {
+            "Key": "bc421d65-6a67-4e65-98ae-47e9cbcba257",
+            "Value": {
+                "id": "63aa5adc-0ead-4438-b21b-8636df425ce7",
+                "resourcePath": "sprites\\spr_player_1_body_attack_up\\spr_player_1_body_attack_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc5d80a7-55ad-4862-afd2-cf035137dcf8",
+            "Value": {
+                "id": "5198ff59-7880-4f1a-8e80-47df08744b09",
+                "resourcePath": "sprites\\spr_player_1_cape_head_attack_down\\spr_player_1_cape_head_attack_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bce4af08-7ee9-4456-8d8a-799cf225f98d",
             "Value": {
                 "id": "b998b2ba-4cbb-469c-b950-e184a98648cb",
                 "resourcePath": "views\\bce4af08-7ee9-4456-8d8a-799cf225f98d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c14e61ae-4dd5-4175-ae7f-51d021d77e4b",
+            "Value": {
+                "id": "525c621c-331a-4cc5-8a89-de633a0257be",
+                "resourcePath": "scripts\\HandPatrol\\HandPatrol.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5998b29-b18c-476c-a338-6e2419542f50",
+            "Value": {
+                "id": "0c7b2f61-ec78-4334-9d4d-4516ccd0812c",
+                "resourcePath": "sprites\\spr_player_1_sword_attack_up\\spr_player_1_sword_attack_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -736,7 +792,7 @@
         }
     ],
     "script_order": [
-        
+        "c14e61ae-4dd5-4175-ae7f-51d021d77e4b"
     ],
     "tutorial": ""
 }

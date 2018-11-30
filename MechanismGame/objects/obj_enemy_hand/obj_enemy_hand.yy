@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "76ae79af-e599-4cb8-8e4c-17124110df50"
+        },
+        {
+            "id": "b769ef20-7aa2-47ee-92c4-113f47536e7d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "76ae79af-e599-4cb8-8e4c-17124110df50"
         }
     ],
     "maskSpriteId": "cdf3b373-f47c-411d-b7ab-aaca3ff8b150",
@@ -140,8 +150,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "60",
+            "value": "120",
             "varName": "wait",
+            "varType": 4
+        },
+        {
+            "id": "73d29a11-589a-4759-bc1b-4fee4d5001b9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "HAND_STATE.PATROL",
+            "varName": "currentstate",
             "varType": 4
         }
     ],
