@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1d410ec7-618a-46b3-a904-13dd462a76e5",
+            "Value": {
+                "id": "89c654da-a173-433b-88f5-2b8ceaf03262",
+                "resourcePath": "scripts\\HandAttack\\HandAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2091781d-536d-4877-ac94-e2d2166fe24f",
             "Value": {
                 "id": "e79a30ef-b750-44c4-a706-7de90b68d58e",
@@ -459,14 +467,6 @@
             "Value": {
                 "id": "c829a950-2923-4cd4-83c6-dc74e4e09ebb",
                 "resourcePath": "sprites\\spr_player_1_cape_head_idle\\spr_player_1_cape_head_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7f3095f2-b454-4a54-9b92-4cef34c2c1c6",
-            "Value": {
-                "id": "e1164658-c5d6-46b2-9117-fa6c9c7dbe78",
-                "resourcePath": "sprites\\spr_player_1_sword_attack_up1\\spr_player_1_sword_attack_up1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "ea3f865d-a9d5-474d-9d71-395cf263343a",
+            "Value": {
+                "id": "9080d3a7-99d4-467e-9527-4037e398bfe5",
+                "resourcePath": "sprites\\spr_player_1_sword_attack_upHB\\spr_player_1_sword_attack_upHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed6fb371-baa9-40a6-a789-65d664c27e2d",
             "Value": {
                 "id": "4540738c-6795-409b-b801-729ef15f5284",
@@ -847,6 +855,14 @@
             }
         },
         {
+            "Key": "fbd8c052-0b29-426e-b9c6-7ded10c4eb55",
+            "Value": {
+                "id": "832b2b12-35ed-4758-8ea1-0cff492e3f0b",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fe971e83-4f53-47d8-a8bb-7e2c133ae87e",
             "Value": {
                 "id": "cd855401-b997-4e10-a9b0-04929de2be05",
@@ -865,6 +881,7 @@
     ],
     "script_order": [
         "c14e61ae-4dd5-4175-ae7f-51d021d77e4b",
+        "1d410ec7-618a-46b3-a904-13dd462a76e5",
         "360f4b01-d443-4fea-994c-845251ea358a",
         "c7019070-894c-4d3a-9986-34abe57d0861",
         "7fef3878-eb4b-42f4-b08a-6be4f132bf3e",

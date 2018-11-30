@@ -8,9 +8,10 @@ jump = -14;
 
 startingangle = 0;
 
-weaponout = false;
-
+swingTimer = 20;
+buffer =0;
 state = PLAYERSTATE.FREE;
+lastAttackState = PLAYERSTATE.ATTACK_COMBO;
 hitByAttack = ds_list_create();
 
 enum PLAYERSTATE

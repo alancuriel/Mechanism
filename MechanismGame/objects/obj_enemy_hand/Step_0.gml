@@ -30,9 +30,9 @@ y = y + vsp;
 switch(currentstate)
 {
 	case HAND_STATE.PATROL:
-		HandPatrol(other);
+		HandPatrol();
 	break;
-case HAND_STATE.ATTACK:
+	case HAND_STATE.ATTACK:
 	
 	break;
 	case HAND_STATE.SNEAK:

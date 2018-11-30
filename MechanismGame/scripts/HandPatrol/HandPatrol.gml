@@ -1,6 +1,4 @@
-///@param id refrence id for object
-with(argument[0])
-{
+
 	var _x = xstart - x;
 	
 	if(abs(_x) < 500)
@@ -16,4 +14,4 @@ with(argument[0])
 	{
 		hsp = walkspd * sign(_x);
 	}
-}	
+	

@@ -1,0 +1,1 @@
+followPlayer = true;

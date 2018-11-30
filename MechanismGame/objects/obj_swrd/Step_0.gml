@@ -1,8 +1,12 @@
-with(obj_player)
+
+if(followPlayer)
 {
-	other.x = x;
-	other.y = y;
+	with(obj_player)
+	{
+		other.x = x;
+		other.y = y;
 	
-	other.image_xscale = image_xscale;
+		other.image_xscale = image_xscale;
+	}
 }
 

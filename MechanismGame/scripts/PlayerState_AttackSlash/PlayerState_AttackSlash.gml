@@ -26,10 +26,11 @@ if(sprite_index != spr_player_1_body_attack_down)
 
 with(obj_swrd)
 {
+	followPlayer = false;
 	mask_index = spr_player_1_sword_attack_downHB;
 	
 	var hitByAttacksNow = ds_list_create();
-	var hits = instance_place_list(x,y,obj_enemy_hand,hitByAttacksNow,false);
+	var hits = instance_place_list(x,y,obj_enemy,hitByAttacksNow,false);
 	if(hits > 0)
 	{
 		for(var i = 0; i < hits; i++)
@@ -49,9 +50,10 @@ with(obj_swrd)
 	ds_list_destroy(hitByAttacksNow);
 	mask_index = spr_player_1_sword_attack_down;
 	
+	
 	if(animation_end())
 	{
-		
+		other.lastAttackState = PLAYERSTATE.ATTACK_SLASH;
 		other.state = PLAYERSTATE.FREE;
 	}
 }

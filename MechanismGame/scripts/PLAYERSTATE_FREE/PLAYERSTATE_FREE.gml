@@ -67,4 +67,25 @@ else
 		}
 }
 
-if(left_click) state = PLAYERSTATE.ATTACK_SLASH;
+if(key_r){with(obj_swrd) followPlayer = true;}
+
+if(left_click)
+{
+	if(buffer <= 3) buffer++;
+}
+
+if((buffer > 0) && (swingTimer < 0))
+{
+	swingTimer = 20;
+	if(lastAttackState == PLAYERSTATE.ATTACK_COMBO)
+	{
+		state = PLAYERSTATE.ATTACK_SLASH;
+	}
+	else
+	{
+		state = PLAYERSTATE.ATTACK_COMBO
+	}
+	buffer--;
+}
+
+if(swingTimer >= 0) swingTimer--;
