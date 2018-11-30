@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "7f3095f2-b454-4a54-9b92-4cef34c2c1c6",
+            "Value": {
+                "id": "e1164658-c5d6-46b2-9117-fa6c9c7dbe78",
+                "resourcePath": "sprites\\spr_player_1_sword_attack_up1\\spr_player_1_sword_attack_up1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7fef3878-eb4b-42f4-b08a-6be4f132bf3e",
             "Value": {
                 "id": "996c4660-8e7d-4518-990c-8eb63ababadd",
