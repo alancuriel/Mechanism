@@ -1,6 +1,5 @@
 swingspd = 10;
 
-
 rswing = 0;//1
 ruswing = 0;//2
 

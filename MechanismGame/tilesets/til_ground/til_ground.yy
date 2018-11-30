@@ -1,5 +1,5 @@
 {
-    "id": "0096b349-6268-4dd4-a6b9-f032321904e1",
+    "id": "f880eec0-2025-4fe8-b050-87a93bb68eb3",
     "modelName": "GMTileSet",
     "mvc": "1.11",
     "name": "til_ground",
@@ -134,23 +134,7 @@
             108,
             109,
             110,
-            111,
-            112,
-            113,
-            114,
-            115,
-            116,
-            117,
-            118,
-            119,
-            120,
-            121,
-            122,
-            123,
-            124,
-            125,
-            126,
-            127
+            111
         ],
         "SerialiseFrameCount": 1
     },
@@ -158,11 +142,11 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 128,
-    "tileheight": 32,
+    "tile_count": 112,
+    "tileheight": 18,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 32,
+    "tilewidth": 18,
     "tilexoff": 0,
-    "tileyoff": 0
+    "tileyoff": 3
 }

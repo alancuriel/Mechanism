@@ -5,10 +5,6 @@
     "name": "21d710ee-e92e-4cef-b524-22636a113ab6",
     "children": [
         "318041da-9b59-451c-b0c3-910bad2aa118",
-        "cf8598f1-8530-451c-aa5a-c372caec6663",
-        "6abda847-25d0-495d-9055-0fe6f0431db3",
-        "145e66ce-ecb0-4d9d-a700-291f8baab7f8",
-        "0114559d-a49a-42c1-b544-f3627b158c30",
         "8300a4c2-2e32-46b9-827b-3d5481ffb2f2",
         "fafffba7-6cc6-49f8-9250-e16c28404cc4",
         "85fc53b3-bb5f-49a4-846b-7e2776c87b20",
@@ -23,7 +19,8 @@
         "166f945b-462a-427c-b77f-e303ab1aefe3",
         "035a123f-de7e-414b-b073-6c53b1a6382b",
         "b500c110-1df9-44d7-80f6-5e74734718de",
-        "0ff891ae-e148-4e86-8016-37374f4a5b99"
+        "0ff891ae-e148-4e86-8016-37374f4a5b99",
+        "c33a8458-cd97-446a-83ba-8ad8b615fec5"
     ],
     "filterType": "GMObject",
     "folderName": "Armoury",
