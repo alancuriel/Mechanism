@@ -1,1 +1,0 @@
-background_color = c_blue;
