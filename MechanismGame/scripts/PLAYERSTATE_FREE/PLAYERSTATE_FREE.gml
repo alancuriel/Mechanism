@@ -31,7 +31,7 @@ if(place_meeting(x + hsp, y, obj_block))
 x = x + hsp;
 
 //Vertical Collision
-if(place_meeting(x, y + vsp, obj_block))
+if(place_meeting(x, y + vsp, obj_block))    
 {
 	while(!place_meeting(x,y + sign(vsp),obj_block))
 	{
