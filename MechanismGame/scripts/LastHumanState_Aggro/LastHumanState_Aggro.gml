@@ -45,6 +45,6 @@ else
 		}
 }
 
-hsp = (hsp/2) * sign(xtarget);
+hsp *= sign(xtarget);
 
-if(abs(obj_player.x - x) < 150) state = LAST_HUMAN_STATE.THRUST;
+if(abs(xtarget) < 150) state = LAST_HUMAN_STATE.THRUST;

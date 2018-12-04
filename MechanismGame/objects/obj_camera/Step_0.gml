@@ -2,6 +2,10 @@
 x += (xTo - x)/25;
 y += (yTo - y)/25;
 
+clamp(x,0,room_width);
+
+
+
 if(follow != noone)
 {
 	xTo = follow.x;

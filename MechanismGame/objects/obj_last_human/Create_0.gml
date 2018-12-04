@@ -8,7 +8,7 @@ thrusttmr = 60;
 
 state = LAST_HUMAN_STATE.IDLE;
 
-
+hp = 1000;
 
 enum LAST_HUMAN_STATE
 {

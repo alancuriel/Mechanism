@@ -2,7 +2,7 @@
 hsp = 0;
 vsp = 0;
 grv = 0.5;
-walkspd = 5;
+walkspd = 7;
 jump = -14;
 
 
