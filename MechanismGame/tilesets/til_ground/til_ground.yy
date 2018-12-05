@@ -134,7 +134,23 @@
             108,
             109,
             110,
-            111
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127
         ],
         "SerialiseFrameCount": 1
     },
@@ -142,11 +158,11 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 112,
-    "tileheight": 18,
+    "tile_count": 128,
+    "tileheight": 16,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 18,
+    "tilewidth": 16,
     "tilexoff": 0,
     "tileyoff": 3
 }

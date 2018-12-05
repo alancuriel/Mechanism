@@ -2,13 +2,13 @@
 {
     "name": "rm_menu",
     "id": "f2ca6c7c-e913-4683-96bf-8057a5febb2c",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "2e1d9d54-7c34-45e9-a84c-9a553f2e570c",
-        "956bcf2d-61d1-4dfa-aa72-0defda722bcd"
+        "956bcf2d-61d1-4dfa-aa72-0defda722bcd",
+        "2e1d9d54-7c34-45e9-a84c-9a553f2e570c"
     ],
     "IsDnD": false,
     "layers": [
