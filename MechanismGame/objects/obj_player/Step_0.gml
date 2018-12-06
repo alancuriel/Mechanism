@@ -123,3 +123,4 @@ if(weaponout && key_r)
 if(hsp != 0) image_xscale = sign(hsp);
 
 
+if(obj_health_bar.playerhp < 0) instance_destroy();

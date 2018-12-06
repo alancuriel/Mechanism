@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "41bce70a-413a-49ab-a2d3-38929ae25f03",
+            "Value": {
+                "id": "986ff283-3c30-4d8c-8de0-6fe4179bab04",
+                "resourcePath": "objects\\obj_health_bar\\obj_health_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "434789c7-a411-436d-a0b7-31a4a5aef6ea",
             "Value": {
                 "id": "4a08e7a6-bab3-4f74-9614-e72e92e1ea59",
@@ -1171,6 +1179,14 @@
             "Value": {
                 "id": "9080d3a7-99d4-467e-9527-4037e398bfe5",
                 "resourcePath": "sprites\\spr_player_1_sword_attack_upHB\\spr_player_1_sword_attack_upHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebb29bf4-6a9e-4001-9dbe-dc11fb760026",
+            "Value": {
+                "id": "5693f229-ecd7-45df-90b6-7dc00e33f345",
+                "resourcePath": "sprites\\spr_health_bar\\spr_health_bar.yy",
                 "resourceType": "GMSprite"
             }
         },
