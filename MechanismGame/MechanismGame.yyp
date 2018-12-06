@@ -290,7 +290,7 @@
             "Key": "309ba8b7-7c0a-4b8c-b2ff-a7f30d3cb7f4",
             "Value": {
                 "id": "6b331d55-5b6f-410b-8853-a19cc6c8583f",
-                "resourcePath": "objects\\obj_menu_title\\obj_menu_title.yy",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -367,11 +367,27 @@
             }
         },
         {
+            "Key": "3c452d38-95c7-4e4f-9f35-b6cab0ae1176",
+            "Value": {
+                "id": "335542e7-922f-4810-951d-9e3f1ab51437",
+                "resourcePath": "objects\\obj_lighting\\obj_lighting.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ca0f604-451b-4ef1-adaa-b7623082bd7a",
             "Value": {
                 "id": "ff1c47cf-1214-4ca4-ad1a-e8764b39d3d5",
                 "resourcePath": "sprites\\spr_weapon_shelf3\\spr_weapon_shelf3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3dff7228-6fdc-4a73-a2b0-a2c2d69ae047",
+            "Value": {
+                "id": "146978b2-e4a5-4da1-bd48-b7b3b0f3ed35",
+                "resourcePath": "fonts\\fnt_menu\\fnt_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
