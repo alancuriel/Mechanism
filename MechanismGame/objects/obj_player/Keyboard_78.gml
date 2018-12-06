@@ -1,1 +1,1 @@
-room_goto(rm_cold_weapon_3);
+room_goto(rm_cold_weapon_2);
