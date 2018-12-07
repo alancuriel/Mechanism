@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "7049b29b-9a27-4a09-bd4b-c0b1d1ad6cca",
+            "Value": {
+                "id": "3818818e-caca-4884-b977-c393fd7631a6",
+                "resourcePath": "rooms\\rm_boss_arena\\rm_boss_arena.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "71f0883a-187e-4e31-80ad-0923e09f18da",
             "Value": {
                 "id": "fac9b3d7-77fe-4704-940e-7685971da81c",
@@ -996,6 +1004,14 @@
                 "id": "b7d6a7c7-2b95-4db2-91d4-c5ede9f403dd",
                 "resourcePath": "sprites\\spr_hand_gun3\\spr_hand_gun3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2407b95-1c22-4fc7-a6aa-5538de245dcf",
+            "Value": {
+                "id": "2c46cc65-065f-4b82-9923-9b438ff8113f",
+                "resourcePath": "rooms\\rm_hot_weapon_1\\rm_hot_weapon_1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
