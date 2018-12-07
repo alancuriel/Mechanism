@@ -12,9 +12,13 @@ hp = 1000;
 
 enum LAST_HUMAN_STATE
 {
+	LAY,
+	WAKEUP,
 	IDLE,
 	AGGRO,
 	SLASH,
+	UPSLASH,
 	THRUST,
+	CHARGE,
 	DEAD
 }

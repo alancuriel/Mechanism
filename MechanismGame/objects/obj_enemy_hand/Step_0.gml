@@ -1,5 +1,8 @@
-xtarget = follow.x - x;
-ytarget = follow.y - y;
+if(instance_exists(follow))
+{
+	xtarget = follow.x - x;
+	ytarget = follow.y - y;
+}
 
 
 vsp = vsp + grv;

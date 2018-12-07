@@ -79,5 +79,6 @@ with(obj_swrd)
 	{
 		other.lastAttackState = PLAYERSTATE.ATTACK_COMBO;
 		other.state = PLAYERSTATE.FREE;
+		sprite_index = spr_player_1_sword_up;
 	}
 }
