@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03bb1d33-12e1-4f62-b5a1-29af1f7175b3",
+            "Value": {
+                "id": "e7eaf157-42e8-4619-bd8b-6a622d570e4c",
+                "resourcePath": "sprites\\spr_player_1_sword_return_explosion\\spr_player_1_sword_return_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04e375d3-920f-4bbc-8da9-109828d3783f",
             "Value": {
                 "id": "7699c7d1-28d9-4ff4-be04-e7ebb7b2ed48",
@@ -1219,6 +1227,14 @@
             "Value": {
                 "id": "5e66ae13-44c3-4a85-aad9-cd2afd7ccdf8",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dc246c21-1d94-4e8f-a611-4511675a8a93",
+            "Value": {
+                "id": "733a5eca-4d95-410b-84ba-62cc5a8216f2",
+                "resourcePath": "objects\\obj_player_1_sword_return_explosion\\obj_player_1_sword_return_explosion.yy",
                 "resourceType": "GMObject"
             }
         },
