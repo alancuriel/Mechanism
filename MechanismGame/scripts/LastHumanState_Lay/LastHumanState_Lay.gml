@@ -3,8 +3,8 @@
 
 
 
-if(/*player at door*/false)
+if(awake)
 {
 	
-	//state = ;
+	state = LAST_HUMAN_STATE.WAKEUP;
 }

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "034342fd-a3b4-4f61-8a83-af302efd7f6d",
+            "Value": {
+                "id": "3ec379a5-cd5f-4b17-bbc4-ac6b1069250f",
+                "resourcePath": "objects\\obj_last_human_door\\obj_last_human_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "035a123f-de7e-414b-b073-6c53b1a6382b",
             "Value": {
                 "id": "c226e09b-f743-4cd5-acfd-966c4e296caf",
@@ -42,7 +50,7 @@
             "Key": "04e375d3-920f-4bbc-8da9-109828d3783f",
             "Value": {
                 "id": "7699c7d1-28d9-4ff4-be04-e7ebb7b2ed48",
-                "resourcePath": "sprites\\sprite55\\sprite55.yy",
+                "resourcePath": "sprites\\spr_last_human_door\\spr_last_human_door.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -116,6 +124,14 @@
                 "id": "6e864721-fd8b-4761-8db0-7d140c1e6c11",
                 "resourcePath": "objects\\object_pendent1\\object_pendent1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1696affb-2e53-4356-be0e-9df6619ccd30",
+            "Value": {
+                "id": "e4dd58ea-2d6f-4f0f-9327-75da4ee985b3",
+                "resourcePath": "sprites\\spr_last_human_wake_up3\\spr_last_human_wake_up3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -767,6 +783,14 @@
             }
         },
         {
+            "Key": "89e989dd-22d4-4d58-817f-3fb237c470a5",
+            "Value": {
+                "id": "fdb43e10-5df8-4419-98e7-340a9a553cc4",
+                "resourcePath": "sprites\\spr_last_human_wake_up0\\spr_last_human_wake_up0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b4bf2ad-bed2-4462-a9bc-969923066131",
             "Value": {
                 "id": "db12f77d-5867-4ee1-8e58-01e0e2279794",
@@ -956,6 +980,14 @@
                 "id": "d04824fd-10ef-4074-bf62-fe545f771686",
                 "resourcePath": "objects\\obj_arrow\\obj_arrow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b072bc8e-f5e8-48e2-8024-b5fe9c99c9ef",
+            "Value": {
+                "id": "cc303ada-ce9a-430c-916d-189ba7a8453d",
+                "resourcePath": "sprites\\spr_last_human_wake_up2\\spr_last_human_wake_up2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1172,6 +1204,14 @@
                 "id": "4ef09bdb-0059-4620-b55d-b7c286d8713d",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da284363-65f8-4b3b-901c-0fcf63d88cc3",
+            "Value": {
+                "id": "e7720e4b-c4db-47b1-a6cf-986919ecba57",
+                "resourcePath": "sprites\\spr_last_human_wake_up1\\spr_last_human_wake_up1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
