@@ -10,5 +10,6 @@ if(animation_end())
 	if(wake_up_index >= wake_up_sprite_count)
 	{
 		state = LAST_HUMAN_STATE.IDLE;
+		wake_up_index = 0;
 	}
 }
