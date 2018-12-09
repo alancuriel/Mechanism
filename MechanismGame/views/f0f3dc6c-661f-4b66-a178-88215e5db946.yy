@@ -40,8 +40,8 @@
         "36141faf-b856-46ca-913a-4656c8c9092e",
         "86a101b4-7851-4f09-abe4-d50ebd62eaad",
         "261b93d9-2db9-4d89-a009-ed71cb007f58",
-        "60f0bf45-045b-455a-9ce4-5f57adeba0a1",
-        "a2377165-114a-4f5e-b000-c42bdfc914df"
+        "a2377165-114a-4f5e-b000-c42bdfc914df",
+        "60f0bf45-045b-455a-9ce4-5f57adeba0a1"
     ],
     "filterType": "GMSprite",
     "folderName": "Armoury",
