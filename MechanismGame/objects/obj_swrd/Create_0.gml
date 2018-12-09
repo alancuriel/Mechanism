@@ -1,1 +1,3 @@
 followPlayer = true;
+
+recall = false;
