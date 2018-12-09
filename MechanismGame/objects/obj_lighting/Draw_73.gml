@@ -7,7 +7,7 @@ if (surface_exists(surf))
 	draw_clear_alpha(c_black, 0.1);
 	gpu_set_blendmode(bm_add);
 	
-	draw_circle_color(obj_player.x - cx, obj_player.y - cy, 500, c_white, c_black, 0);
+	draw_circle_color(obj_player.x - cx, obj_player.y - cy, 300, c_white, c_black, 0);
 	
 	if(instance_exists(obj_light))
 	{

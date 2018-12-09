@@ -1,5 +1,4 @@
-global.hp = 100;
-maxhp = 100;
+
 hsp = 0;
 vsp = 0;
 grv = 0.5;

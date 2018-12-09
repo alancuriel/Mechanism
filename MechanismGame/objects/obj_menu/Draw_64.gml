@@ -26,4 +26,4 @@ draw_set_font(fnt_title);
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_left);
-draw_text(130, (gui_height/4) *3, title);
+draw_text(20, (gui_height/4) *3, title);
