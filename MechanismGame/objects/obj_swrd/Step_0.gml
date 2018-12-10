@@ -3,11 +3,13 @@ if(recall)
 	visible = 0;
 	if(sprite_index == spr_player_1_sword_up)
 	{
+		instance_create_layer(x+24,y-93,"layer_wall",obj_player_1_return_explosion);
 		instance_create_layer(x+24,y-93,"layer_player",obj_player_1_sword_return);
 	}
 	
 	if(sprite_index == spr_player_1_sword_down)
 	{
+		instance_create_layer(x+37,y+38,"layer_wall",obj_player_1_return_explosion);
 		instance_create_layer(x+37,y+38,"layer_player",obj_player_1_sword_return);
 	}
 	recall = false;

@@ -78,8 +78,8 @@ if(key_r)
 {
 	with(obj_swrd) 
 	{
-		followPlayer = true;
-		recall = true;
+		if(!recall && !followPlayer) recall = true;
+		if(!followPlayer)  followPlayer = true;
 	}
 }
 
