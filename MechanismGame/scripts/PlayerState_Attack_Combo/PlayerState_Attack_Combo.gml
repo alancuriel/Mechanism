@@ -1,4 +1,3 @@
-
 //Horizontal Collision
 if(place_meeting(x + hsp, y, obj_block))
 {
@@ -51,7 +50,7 @@ with(obj_swrd)
 	mask_index = spr_player_1_sword_attack_upHB;
 	
 	var hitByAttacksNow = ds_list_create();
-	var hits = instance_place_list(x,y,obj_enemy_hand,hitByAttacksNow,false);
+	var hits = instance_place_list(x,y,obj_enemy,hitByAttacksNow,false);
 	if(hits > 0)
 	{
 		for(var i = 0; i < hits; i++)
@@ -79,5 +78,6 @@ with(obj_swrd)
 	{
 		other.lastAttackState = PLAYERSTATE.ATTACK_COMBO;
 		other.state = PLAYERSTATE.FREE;
+		sprite_index = spr_player_1_sword_up;
 	}
 }

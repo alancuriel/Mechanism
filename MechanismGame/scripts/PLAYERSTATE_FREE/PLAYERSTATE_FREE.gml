@@ -1,4 +1,10 @@
-with(obj_swrd) visible = 0;
+with(obj_swrd) 
+{
+	if(!followPlayer){
+	visible = 1;} else {
+	visible = 0;}
+}
+
 if(place_meeting(x, y + 1, obj_block) && key_jump)
 {
 	vsp = jump;
@@ -68,7 +74,14 @@ else
 		}
 }
 
-if(key_r){with(obj_swrd) followPlayer = true;}
+if(key_r)
+{
+	with(obj_swrd) 
+	{
+		followPlayer = true;
+		recall = true;
+	}
+}
 
 if(left_click)
 {
