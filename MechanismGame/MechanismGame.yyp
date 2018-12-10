@@ -1122,6 +1122,25 @@
             }
         },
         {
+            "Key": "2d8c0947-60f9-4dc3-abed-89070e6beff3",
+            "Value": {
+                "id": "e2f85913-09fb-4ff6-bdd5-ed697634008f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_ladder\/spr_ladder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2df9b5f2-7c28-4cca-94f0-d79a822f85ab",
             "Value": {
                 "id": "dfbd8077-e6f8-4bba-ad69-77d119abafdc",
@@ -1782,7 +1801,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_column1\/obj_column1.yy",
+                "resourcePath": "objects\/obj_hand\/obj_hand.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2010,7 +2029,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/rm_elevator_room_2\/rm_elevator_room_2.yy",
+                "resourcePath": "rooms\/rm_elevator_floor_2\/rm_elevator_floor_2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3193,6 +3212,25 @@
             }
         },
         {
+            "Key": "99b30a4a-5948-4a9f-aa44-d33b71d399b9",
+            "Value": {
+                "id": "eac25619-e760-4cf6-b5a8-4f45c289e21a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/til_lamp\/til_lamp.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "9a2df75e-e4b0-4332-9931-ab4014820670",
             "Value": {
                 "id": "d7bcd8d9-fefc-4f29-8b3b-00290beeafe1",
@@ -3455,6 +3493,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_ceiling2\/spr_ceiling2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a744c4f7-061b-4037-8ea0-d20b22001a49",
+            "Value": {
+                "id": "ab2e9b41-d44f-4526-95c0-c9011f0791d0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_map_armory_lamp\/spr_map_armory_lamp.yy",
                 "resourceType": "GMSprite"
             }
         },

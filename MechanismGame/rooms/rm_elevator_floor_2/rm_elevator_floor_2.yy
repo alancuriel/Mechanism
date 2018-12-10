@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_elevator_room_2",
+    "name": "rm_elevator_floor_2",
     "id": "5f619236-0dbe-4392-a68d-3b88da538be7",
     "creationCodeFile": "",
     "inheritCode": false,

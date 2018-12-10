@@ -2,7 +2,7 @@
     "id": "50417a60-c0d8-4057-86f8-64b251ed892a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_column1",
+    "name": "obj_hand",
     "eventList": [
         
     ],
