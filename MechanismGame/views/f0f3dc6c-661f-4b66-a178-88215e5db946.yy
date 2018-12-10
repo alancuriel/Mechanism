@@ -10,6 +10,7 @@
         "9b85f415-9e84-4f37-bf87-ea1861528c58",
         "3ca0f604-451b-4ef1-adaa-b7623082bd7a",
         "bbc40942-3f36-4069-b012-9e9b67d943ae",
+        "cd49b958-64c8-4e55-9f11-849caf3e463c",
         "37ad7212-5b43-4a17-9efc-0d742c3de17f",
         "6a7efe2f-a8a3-4877-9a27-173714ae177f",
         "c8499f46-c78f-4572-8d05-03b192e5248c",
@@ -41,7 +42,10 @@
         "86a101b4-7851-4f09-abe4-d50ebd62eaad",
         "261b93d9-2db9-4d89-a009-ed71cb007f58",
         "a2377165-114a-4f5e-b000-c42bdfc914df",
-        "60f0bf45-045b-455a-9ce4-5f57adeba0a1"
+        "60f0bf45-045b-455a-9ce4-5f57adeba0a1",
+        "6a036c82-f632-4816-9ae4-8b86de46e55f",
+        "e570e95c-044b-47cb-bf1d-e75bf09ad429",
+        "22b01059-f29f-4506-a685-fb14a35d0f27"
     ],
     "filterType": "GMSprite",
     "folderName": "Armoury",
