@@ -2,7 +2,7 @@
     "id": "bcab754b-4387-412a-9a5d-8e542534248c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_column3",
+    "name": "obj_brain",
     "eventList": [
         
     ],

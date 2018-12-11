@@ -26,7 +26,7 @@ if(menu_committed != -1)
 {
 	switch(menu_committed)
 	{
-		case 2: default: room_goto(rm_basement_1); break;
+		case 2: default: room_goto(rm_cold_weapon_4); break;
 		case 0: game_end(); break;
 	}
 }

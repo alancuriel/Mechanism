@@ -1,8 +1,8 @@
 {
-    "id": "541e2e16-44ff-4b37-91b2-b61e9208fce9",
+    "id": "50417a60-c0d8-4057-86f8-64b251ed892a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_column2",
+    "name": "obj_hand",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d12e5035-e912-4dce-a2c4-e4ce54830cec",
+    "spriteId": "2963c997-05db-4d69-a51e-07fae6077398",
     "visible": true
 }
