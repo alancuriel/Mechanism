@@ -41,7 +41,8 @@
         "a04aec46-eaa4-4864-be83-5a7bd67be8d5",
         "e0344bed-82d6-4b51-a26b-411763811fe3",
         "7785c12d-16ea-4c9b-a17b-4077f2b7a921",
-        "318041da-9b59-451c-b0c3-910bad2aa118"
+        "318041da-9b59-451c-b0c3-910bad2aa118",
+        "f10949b7-a08f-411d-92c0-12369046dfa9"
     ],
     "filterType": "GMObject",
     "folderName": "Armoury",
