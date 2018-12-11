@@ -12,7 +12,8 @@
         "bc5c5dec-bc46-4e70-8ba3-01b79a91f5e0",
         "4007c69d-dcc5-44b1-a118-ad34db07a7dd",
         "0e853440-eba6-48e4-9a3d-d37a103a1251",
-        "46161b3e-74e0-4cfa-988e-68e9e7b5c24d"
+        "46161b3e-74e0-4cfa-988e-68e9e7b5c24d",
+        "b5f7531b-fc11-404f-a21d-e61e491c9045"
     ],
     "filterType": "GMSprite",
     "folderName": "LastHuman",

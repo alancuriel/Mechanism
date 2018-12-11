@@ -7,7 +7,7 @@ if(instance_exists(obj_player))
 
 	if(place_meeting(x,y,obj_player))
 	{
-		instance_create_layer(obj_player.x,obj_player.y,"layer_wall",obj_player_1_return_explosion);
+		instance_create_layer(obj_player.x,obj_player.y,"layer_wall",obj_player_1_recieve_sword);
 		instance_destroy();
 	}
 }

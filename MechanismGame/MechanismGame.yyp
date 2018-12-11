@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "3f54335f-8d17-43dc-a840-e24e320a3df9",
+            "Value": {
+                "id": "732202d7-fde2-4300-9d1c-08697cc5d478",
+                "resourcePath": "objects\\obj__player_sword_line\\obj__player_sword_line.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4007c69d-dcc5-44b1-a118-ad34db07a7dd",
             "Value": {
                 "id": "24a14ad6-2b0a-42ca-871c-f698ff937955",
@@ -1559,6 +1567,14 @@
             }
         },
         {
+            "Key": "b5f7531b-fc11-404f-a21d-e61e491c9045",
+            "Value": {
+                "id": "f9af581f-0505-4df2-b435-0b78ddd03c5d",
+                "resourcePath": "sprites\\spr_last_human_charge\\spr_last_human_charge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7b0273a-c97f-44c2-b512-e8ef705e1cdd",
             "Value": {
                 "id": "d4f9441f-416c-4401-9d34-bb9266fd6e5a",
@@ -1999,6 +2015,14 @@
             }
         },
         {
+            "Key": "ea0c5c75-0e2b-4c0a-b647-8334f611b795",
+            "Value": {
+                "id": "b8993122-e960-4627-af86-f96646be5f2b",
+                "resourcePath": "sprites\\spr_player_1_recieve_sword\\spr_player_1_recieve_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ea3f865d-a9d5-474d-9d71-395cf263343a",
             "Value": {
                 "id": "9080d3a7-99d4-467e-9527-4037e398bfe5",
@@ -2220,6 +2244,14 @@
                 "id": "4e2f1fc4-909c-4ce5-8b9a-c3eb52a5ab4e",
                 "resourcePath": "views\/ff7c8ab0-4883-4ccd-bc52-4339eb6d88fa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ffa2271a-856f-436a-91ef-c2080189d34e",
+            "Value": {
+                "id": "1dbff199-0494-4d9f-8e91-29eb559c060c",
+                "resourcePath": "objects\\obj_player_1_recieve_sword\\obj_player_1_recieve_sword.yy",
+                "resourceType": "GMObject"
             }
         },
         {
