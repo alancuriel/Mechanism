@@ -35,7 +35,13 @@
         "936d0231-a50a-42ca-932b-60bb283d2611",
         "b7b0273a-c97f-44c2-b512-e8ef705e1cdd",
         "3cf88998-5acc-4b50-950b-20114a619009",
-        "5220d8ce-aad4-428a-906c-61db1400a6bd"
+        "5220d8ce-aad4-428a-906c-61db1400a6bd",
+        "3e755857-c1f1-48be-88a6-d902a7fc47ec",
+        "4695aa73-734c-4ce5-b7ae-a7e834522c5a",
+        "a04aec46-eaa4-4864-be83-5a7bd67be8d5",
+        "e0344bed-82d6-4b51-a26b-411763811fe3",
+        "7785c12d-16ea-4c9b-a17b-4077f2b7a921",
+        "318041da-9b59-451c-b0c3-910bad2aa118"
     ],
     "filterType": "GMObject",
     "folderName": "Armoury",
