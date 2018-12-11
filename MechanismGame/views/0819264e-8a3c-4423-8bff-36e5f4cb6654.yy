@@ -11,7 +11,8 @@
         "ad72f630-1a51-4532-8e2f-3f59f1ca9171",
         "f81ff159-6217-45b6-9fb4-b73eb5e8f153",
         "3f54335f-8d17-43dc-a840-e24e320a3df9",
-        "ffa2271a-856f-436a-91ef-c2080189d34e"
+        "ffa2271a-856f-436a-91ef-c2080189d34e",
+        "db3b8e01-fcf6-447c-9771-7ae4e7b27265"
     ],
     "filterType": "GMObject",
     "folderName": "Player",
