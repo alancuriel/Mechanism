@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "1f349e4e-4900-40e0-9891-a0c75c5248bd",
+            "Value": {
+                "id": "ebc5945d-0b19-41a5-8162-09dd6c1265f9",
+                "resourcePath": "objects\\obj_ground_lamp_1\\obj_ground_lamp_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2047cae6-578c-43e8-8ab4-4c2c40d663bc",
             "Value": {
                 "id": "f6cf8625-6b53-444d-8ec7-169fe8b39ae8",
@@ -516,6 +524,14 @@
                 "id": "72550958-b1b6-45e6-a34d-ab53c7bb43a4",
                 "resourcePath": "sprites\/spr_light1\/spr_light1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f990db7-c638-4b83-92ab-733deeaa14b8",
+            "Value": {
+                "id": "36ef6d8b-754c-4ed4-8399-84fd0551b543",
+                "resourcePath": "objects\\obj_ground_lamp_2\\obj_ground_lamp_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1327,11 +1343,27 @@
             }
         },
         {
+            "Key": "8eb701d0-9a59-4084-8be9-60021eac8dee",
+            "Value": {
+                "id": "1ef65d1f-3f01-4f9d-8813-672a4f5e36a4",
+                "resourcePath": "objects\\obj_ground_lamp_3\\obj_ground_lamp_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8eeb6c9e-f6a5-40dc-a0ae-55dcf006561d",
             "Value": {
                 "id": "c44c1a10-791b-46e0-9ca1-0b7481fbf0e1",
                 "resourcePath": "tilesets\/til_shelf1\/til_shelf1.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8fd18284-ce9a-4b7e-88a9-46c1714be078",
+            "Value": {
+                "id": "907462f4-b239-472d-a3dd-a24e13722143",
+                "resourcePath": "sprites\\spr_ground_lamp_1\\spr_ground_lamp_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1476,6 +1508,14 @@
                 "id": "167d1492-b26c-469b-bcc4-8f81d97364ef",
                 "resourcePath": "rooms\/rm_cold_weapon_4\/rm_cold_weapon_4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9f2b4988-91cd-4bd1-ae4b-161348b442ab",
+            "Value": {
+                "id": "b01ea761-3f8d-489f-9714-b06ca3affa35",
+                "resourcePath": "sprites\\spr_ground_lamp_3\\spr_ground_lamp_3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1887,6 +1927,14 @@
             }
         },
         {
+            "Key": "c8c2922e-020f-44ef-afcd-44cbc90a36b4",
+            "Value": {
+                "id": "5171e24c-6973-4ff3-a2f6-8c17954efda3",
+                "resourcePath": "sprites\\spr_ground_lamp_2\\spr_ground_lamp_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9c097af-6efd-4bd1-ab3f-f3926ac1e1f5",
             "Value": {
                 "id": "70a5f0a7-e03c-4d64-9da8-eca80e9e4576",
@@ -1991,6 +2039,14 @@
             }
         },
         {
+            "Key": "d494ffb7-bbd2-4d97-b251-2e1faf489134",
+            "Value": {
+                "id": "fcc36bb3-45d5-4896-9903-2beb82e95f2d",
+                "resourcePath": "objects\\obj_wall_lamp\\obj_wall_lamp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d81fa492-11e5-40ab-af66-5b28bc5bdec4",
             "Value": {
                 "id": "9c6f0c89-52cb-4ca4-9133-56953d6ced8e",
@@ -2028,6 +2084,14 @@
                 "id": "e6675524-c32b-4d69-babf-a971dba75b05",
                 "resourcePath": "views\/dc861240-a280-46d5-9221-f48305f13980.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dce3414e-c338-4080-b8e9-e4555ece4076",
+            "Value": {
+                "id": "c72453ce-07d1-46ca-882a-7d1ef3dd7722",
+                "resourcePath": "sprites\\spr_wall_lamp\\spr_wall_lamp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
