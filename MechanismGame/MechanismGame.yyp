@@ -1527,6 +1527,14 @@
             }
         },
         {
+            "Key": "a535d69e-dba5-44d3-9e1a-5bf296c390bf",
+            "Value": {
+                "id": "3e75bab8-0002-4297-b233-e0155ed3fd2f",
+                "resourcePath": "tilesets\\til_backwall_large\\til_backwall_large.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "a5f81ed9-397e-42cd-9497-e6727f8b9204",
             "Value": {
                 "id": "4d094008-ee54-46fd-aa28-686517147491",
@@ -1691,6 +1699,14 @@
             "Value": {
                 "id": "3e068dc0-cf91-417b-94f1-c27720eb3b20",
                 "resourcePath": "sprites\/spr_iron_gate\/spr_iron_gate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbb27404-e5f9-4e9e-b05d-8df3a5e8c0f8",
+            "Value": {
+                "id": "be56b3f6-5433-4013-8406-64db92b1e8a9",
+                "resourcePath": "sprites\\spr_backwall_large\\spr_backwall_large.yy",
                 "resourceType": "GMSprite"
             }
         },
