@@ -8,6 +8,7 @@ if(instance_exists(obj_player))
 if(sprite_index != spr_last_human_idle )
 {
 	sprite_index = spr_last_human_idle;
+	image_xscale = sign(xtarget);
 }
 
 if(animation_end())
@@ -26,6 +27,6 @@ if(animation_end())
 	}
 	else
 	{
-		state = LAST_HUMAN_STATE.CHARGE;
+		state = LAST_HUMAN_STATE.CHARGE_WIND;
 	}
 }

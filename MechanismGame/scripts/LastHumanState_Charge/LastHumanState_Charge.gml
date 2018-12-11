@@ -1,16 +1,31 @@
-
-
-var xtarget = obj_player.x - x;
-
-if(thrusttmr >= 0)
+if(instance_exists(obj_player))
 {
-	//sprite_index = ;
-	hsp = 0;
-	vsp = 0;
-	thrusttmr--;
+	var xtarget = obj_player.x - x;
 }
 
-if(thrusttmr < 0)
+if(sprite_index != spr_last_human_charge1)
 {
-	hsp = sign(xtarget) * thrustspd;
+	sprite_index = spr_last_human_charge1;
+	y -= 15;
+	hsp = thrustspd * 5 * sign(xtarget);
+}
+
+
+
+
+if(image_index >= 8)
+{
+	hsp = 0;
+}
+
+if(animation_end())
+{
+	if(abs(xtarget) <= 400)
+	{
+		state = LAST_HUMAN_STATE.IDLE_1;
+	}
+	else
+	{
+		state = LAST_HUMAN_STATE.IDLE;
+	}
 }
