@@ -989,6 +989,25 @@
             }
         },
         {
+            "Key": "2750843d-9a0c-4164-9677-4461f904fe2a",
+            "Value": {
+                "id": "85dd837b-6b59-42e0-935b-966536cd7e14",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_ashen_gradient\/spr_ashen_gradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27af4ae4-d587-43b5-9542-861f2d247c9b",
             "Value": {
                 "id": "d1d877a7-496f-4cff-bb87-a8441d4da241",
@@ -2125,6 +2144,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_arrow_trap\/obj_arrow_trap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e61c5bd-7548-44fe-ac05-89aa9668bbba",
+            "Value": {
+                "id": "8c47dd86-f6cd-4cce-9d80-95ae6ef779c9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_ashen_gradient\/obj_ashen_gradient.yy",
                 "resourceType": "GMObject"
             }
         },
