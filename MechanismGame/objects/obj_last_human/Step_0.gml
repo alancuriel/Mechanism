@@ -38,8 +38,16 @@ switch(state)
 	case LAST_HUMAN_STATE.CHARGE: LastHumanState_Charge(); break;
 	case LAST_HUMAN_STATE.CHARGE_WIND: LastHumanState_ChargeWind(); break;
 	case LAST_HUMAN_STATE.DEAD: LastHumanState_Dead(); break;
+	case LAST_HUMAN_STATE.TRANS: LastHumanState_Trans(); break;
+	case LAST_HUMAN_STATE.IDLE_S2: LastHumanState_IdleS2(); break;
+	case LAST_HUMAN_STATE.FRENZY: LastHumanState_Frenzy(); break;
+	case LAST_HUMAN_STATE.LEAP: LastHumanState_Leap(); break;
 }
 
 
-
+if((hp < maxhp/2) && stage != 2)
+{
+	stage = 2;
+	
+}
 if(hp < 0) instance_destroy();
