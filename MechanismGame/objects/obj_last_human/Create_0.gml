@@ -11,6 +11,7 @@ state = LAST_HUMAN_STATE.LAY;
 hp = 1000;
 
 awake = false;
+hitByAttack = ds_list_create();
 
 wake_up_index = 0;
 wake_up_sprites[3] = spr_last_human_wake_up3;
