@@ -1768,6 +1768,25 @@
             }
         },
         {
+            "Key": "447b6dee-ce6a-402a-b9fb-24ccf6e290a4",
+            "Value": {
+                "id": "30783a5f-0271-4f8c-a726-0a4958988713",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_savePoint\/obj_savePoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "44b5de75-3a91-49cf-937b-3c165c901d8f",
             "Value": {
                 "id": "c091fbea-1655-4785-82f9-fdb7889691f1",
@@ -4808,6 +4827,25 @@
             }
         },
         {
+            "Key": "d1ec1ebb-b719-49ee-8f4a-d1c15a03b0b5",
+            "Value": {
+                "id": "edaa54fd-ae8d-4d9d-af64-83d0209e81f4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite118\/sprite118.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1fc86c8-0400-4fe2-b987-a1c28e664c1b",
             "Value": {
                 "id": "6729c850-0f78-4624-9640-0a0f56f2e4e8",
@@ -5755,6 +5793,25 @@
                 ],
                 "resourcePath": "tilesets\/til_backwall\/til_backwall.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f9eb400b-9fe9-4862-b3ed-4e5fd0e7dd4d",
+            "Value": {
+                "id": "0812162b-ef4f-4e5e-b158-98f32e46d4ba",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/f9eb400b-9fe9-4862-b3ed-4e5fd0e7dd4d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
