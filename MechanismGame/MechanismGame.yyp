@@ -2371,10 +2371,11 @@
             "Value": {
                 "id": "5097d2a2-35ff-40bb-82ce-30f6329b24f6",
                 "resourcePath": "sprites\\spr_last_human_phase_transition_1\\spr_last_human_phase_transition_1.yy",
+                "resourceType": "GMSprite"
             }
         },
-        {
-            "Key": "6536140a-f4fd-4730-8e93-273bd3e6806c",
+        
+        {   "Key": "6536140a-f4fd-4730-8e93-273bd3e6806c",
             "Value": {
                 "id": "ae0d5918-de0d-47fe-b201-a9929e684248",
                 "modelName": "GMResourceInfo",
@@ -2392,6 +2393,7 @@
                 "resourceType": "GMSprite"
             }
         },
+
         {
             "Key": "6596885a-9c1e-49a8-b07b-8ce1722ef369",
             "Value": {
