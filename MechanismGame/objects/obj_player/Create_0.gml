@@ -3,7 +3,7 @@ hsp = 0;
 vsp = 0;
 grv = 0.5;
 walkspd = 7;
-jump = -18;
+jump = -16.5;
 
 
 startingangle = 0;
