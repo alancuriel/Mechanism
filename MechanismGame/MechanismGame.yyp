@@ -1447,6 +1447,14 @@
             }
         },
         {
+            "Key": "89787064-4b27-435d-8244-173018f69bc6",
+            "Value": {
+                "id": "5e7b8615-c2c1-488c-8df6-2b2dab32ec6f",
+                "resourcePath": "sprites\\spr_last_human_death_laying\\spr_last_human_death_laying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89de1784-4d68-4293-a0be-0d3b2ea60dde",
             "Value": {
                 "id": "5add02f1-418d-4d17-8507-d3b27025a9f3",
