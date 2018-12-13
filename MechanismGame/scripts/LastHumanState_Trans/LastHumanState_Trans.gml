@@ -1,7 +1,14 @@
 if(sprite_index != trans_sprites[trans_index])
 {
 	sprite_index = trans_sprites[trans_index];
+	image_index = 0;
+	if(sprite_index == trans_sprites[0]) 
+	{
+		image_speed = 0;
+		alarm[1] = 60;
+	}
 }
+
 
 
 if(animation_end())
