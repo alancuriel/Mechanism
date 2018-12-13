@@ -4,7 +4,7 @@ if (surface_exists(surf))
 	var cy = round(camera_get_view_y(view_camera[0]) - 2);
 	
 	surface_set_target(surf);
-	draw_clear_alpha(c_black, 1);
+	draw_clear_alpha(c_dkgray, 1);
 	gpu_set_blendmode(bm_add);
 	
 	draw_circle_color(obj_player.x - cx, obj_player.y - cy, 500, c_white, c_black, 0);
