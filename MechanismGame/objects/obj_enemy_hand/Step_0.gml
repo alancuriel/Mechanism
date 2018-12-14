@@ -43,6 +43,7 @@ y = y + vsp;
 
 if(hp <=0)
 {
+	draw_sprite(spr_death_splash, 0, x, y);
 	instance_destroy();
 }
 

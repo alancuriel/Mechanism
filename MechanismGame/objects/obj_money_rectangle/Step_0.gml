@@ -39,5 +39,6 @@ image_xscale = sign(walking_direction)
 
 if(hp <=0)
 {
+	instance_create(x, y, obj_death_splash);
 	instance_destroy();
 }

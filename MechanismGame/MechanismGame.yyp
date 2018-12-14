@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "08355b8f-c7bd-4875-8d9c-d65ec031eb34",
+            "Value": {
+                "id": "3c68069b-1076-4ec2-918c-8e15cfa66330",
+                "resourcePath": "objects\\obj_death_splash\\obj_death_splash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08476e72-1306-4267-8a34-974c4962225f",
             "Value": {
                 "id": "b0a4a561-fddd-424a-b55f-d914999d6f53",
@@ -2458,7 +2466,7 @@
             "Key": "d1ec1ebb-b719-49ee-8f4a-d1c15a03b0b5",
             "Value": {
                 "id": "edaa54fd-ae8d-4d9d-af64-83d0209e81f4",
-                "resourcePath": "sprites\/sprite118\/sprite118.yy",
+                "resourcePath": "sprites\\spr_death_splash\\spr_death_splash.yy",
                 "resourceType": "GMSprite"
             }
         },
