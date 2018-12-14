@@ -16,6 +16,8 @@ thumb_is_alarm_set = 0;
 
 leapspd = 5;
 
+hitByAttack = ds_list_create();
+
 enum HAND_STATE
 {
 	PATROL,
