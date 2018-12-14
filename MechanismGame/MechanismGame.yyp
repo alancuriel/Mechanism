@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "270bf242-aef2-40cb-b592-ad92343c8fc0",
+            "Value": {
+                "id": "f8adb4b9-ddb6-46cc-a156-169ead8b933c",
+                "resourcePath": "sounds\\snd_boss_stage_2\\snd_boss_stage_2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "27189333-b82f-4a30-b2da-60243f752a64",
             "Value": {
                 "id": "453b3789-59c6-4e43-848d-d3ae84c6bfe8",
@@ -679,6 +687,14 @@
             }
         },
         {
+            "Key": "33a99266-e32f-4d1c-a7e1-2594ce6ef3d8",
+            "Value": {
+                "id": "d39a4085-c14e-4516-8e3b-be53eba80617",
+                "resourcePath": "sounds\\snd_last_human_attack\\snd_last_human_attack.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "360d8300-295a-4e08-aab2-7d4b823dff8c",
             "Value": {
                 "id": "38f22cd7-8ea3-4e42-a0b4-08412f8148aa",
@@ -716,6 +732,14 @@
                 "id": "3ced8674-50c9-4922-a25c-c22bf50fa12a",
                 "resourcePath": "sprites\/spr_cold_weapon\/spr_cold_weapon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3958864d-2cae-43df-8631-8e4bf33456fb",
+            "Value": {
+                "id": "91991830-eedc-46d4-9eba-80e5b5899c5d",
+                "resourcePath": "sounds\\snd_boss_stage_1\\snd_boss_stage_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
