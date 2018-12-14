@@ -7,7 +7,9 @@
         "cdf3b373-f47c-411d-b7ab-aaca3ff8b150",
         "1c462e5a-688e-40de-87ab-a8fcdfa2f62b",
         "ebef5b61-abc0-4f21-810a-398c96ccb1d1",
-        "26669730-cd68-4b3c-9daf-4a80ddb62311"
+        "e914a6eb-55da-4897-8ae2-aea7fed06768",
+        "26669730-cd68-4b3c-9daf-4a80ddb62311",
+        "a791c7b6-8f98-413b-9dba-38e72822fa2d"
     ],
     "filterType": "GMSprite",
     "folderName": "hand",
