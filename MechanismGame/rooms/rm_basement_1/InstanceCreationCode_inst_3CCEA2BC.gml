@@ -1,3 +1,3 @@
 targetRoom = rm_basement_2;
-targetX = 160;
+targetX = 150;
 targetY = 760;
