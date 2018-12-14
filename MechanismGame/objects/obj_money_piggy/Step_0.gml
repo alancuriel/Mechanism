@@ -36,3 +36,8 @@ if(place_meeting(x + hsp, y, obj_block_enemy))
 }
 
 image_xscale = sign(walking_direction)
+
+if(hp <=0)
+{
+	instance_destroy();
+}
