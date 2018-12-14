@@ -42,7 +42,7 @@ if(hp <=0)
 }
 
 
-switch(currentstate)
+switch(state)
 {
 	case HAND_STATE.PATROL:
 		HandPatrol();
@@ -51,7 +51,7 @@ switch(currentstate)
 	
 	break;
 	case HAND_STATE.SNEAK:
-	
+		HandSneak();
 	break;
 	case HAND_STATE.THUMBATTACK:
 	
@@ -71,19 +71,12 @@ if(instance_exists(obj_player)) { // check if player is in sight
 	//check verticle range first
 	if (abs(y-obj_player.y) <= v_sight_range) {
 		// check right sight
-		if(obj_player.x-x >= 0 && obj_player.x-x <= h_rightsight_range) {
-			if(h_rightsight_range == h_backsight_range) {
-				walking_direction = -walking_direction;
-			}
-			HandPause();
-		}
+		HandCheckRightSight();
 		// check left sight
-		if(obj_player.x-x < 0 && x-obj_player.x <= h_leftsight_range) {
-			if(h_leftsight_range == h_backsight_range) {
-				walking_direction = -walking_direction;
-			}
-			HandPause();
-		}
+		HandCheckLeftSight();
+	}
+	else {
+		state = HAND_STATE.PATROL;
 	}
 }
 
@@ -97,7 +90,7 @@ if(instance_exists(obj_player)) { // check if player is in sight
 //change image direction based on walking direction
 image_xscale = sign(walking_direction)
 
-state = HAND_STATE.PATROL;
+
 /*/Player Aggro
 if(abs(xtarget) < 300 && xtarget != 0)
 {

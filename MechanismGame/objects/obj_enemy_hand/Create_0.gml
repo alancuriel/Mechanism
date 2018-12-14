@@ -10,7 +10,7 @@ v_sight_range = 25;
 
 walking_direction = 1; // also regulates the turning of the sprite, see step code
 
-hsp = walkspd;
+pause_steps = 0;
 
 enum HAND_STATE
 {
@@ -19,3 +19,6 @@ enum HAND_STATE
 	LEAPATTACK,
 	THUMBATTACK
 }
+
+hsp = walkspd;
+state = HAND_STATE.PATROL;

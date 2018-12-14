@@ -6,7 +6,10 @@
     "children": [
         "c14e61ae-4dd5-4175-ae7f-51d021d77e4b",
         "1d410ec7-618a-46b3-a904-13dd462a76e5",
-        "da8d14b6-4c3a-4434-8b4f-74123b9768a1"
+        "da8d14b6-4c3a-4434-8b4f-74123b9768a1",
+        "ab8a5ecc-825a-4c9f-923f-d8b129553031",
+        "d7f22c2c-dd27-4430-902d-ecab94d65a91",
+        "6f992700-3eeb-45e8-b26e-aaf959d39b3c"
     ],
     "filterType": "GMScript",
     "folderName": "HandEnemy",

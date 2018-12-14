@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "6f992700-3eeb-45e8-b26e-aaf959d39b3c",
+            "Value": {
+                "id": "98c08737-bc39-4e02-905d-72d73ca8ce8a",
+                "resourcePath": "scripts\\HandSneak\\HandSneak.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "708b988c-0670-45bc-a14b-111d49f48c62",
             "Value": {
                 "id": "162606ae-bdcc-450a-9e26-ea4aa879a44c",
@@ -1919,6 +1927,14 @@
             }
         },
         {
+            "Key": "ab8a5ecc-825a-4c9f-923f-d8b129553031",
+            "Value": {
+                "id": "5b16915e-ba35-41fd-8734-263bcaeb5ee7",
+                "resourcePath": "scripts\\HandCheckRightSight\\HandCheckRightSight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ad52120b-d694-4a96-9024-b50114fd0ce0",
             "Value": {
                 "id": "7a77af8d-d8ce-44fa-ae98-b36d080c1bc9",
@@ -2372,6 +2388,14 @@
                 "id": "fcc36bb3-45d5-4896-9903-2beb82e95f2d",
                 "resourcePath": "objects\/obj_wall_lamp\/obj_wall_lamp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7f22c2c-dd27-4430-902d-ecab94d65a91",
+            "Value": {
+                "id": "1a89ae61-e7d9-42d5-9d17-389eb5138ee8",
+                "resourcePath": "scripts\\HandCheckLeftSight\\HandCheckLeftSight.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2903,6 +2927,9 @@
         "c14e61ae-4dd5-4175-ae7f-51d021d77e4b",
         "1d410ec7-618a-46b3-a904-13dd462a76e5",
         "da8d14b6-4c3a-4434-8b4f-74123b9768a1",
+        "ab8a5ecc-825a-4c9f-923f-d8b129553031",
+        "d7f22c2c-dd27-4430-902d-ecab94d65a91",
+        "6f992700-3eeb-45e8-b26e-aaf959d39b3c",
         "e85d8b0c-4e14-4a8d-abce-3dcce21526dd",
         "0df41025-5428-426f-a693-a329f243bbf4",
         "a0d9f12f-6b80-4b1d-9b60-c977c9037e80",

@@ -3,3 +3,7 @@
 
 image_speed = 1;
 hsp = walkspd;
+
+
+
+pause_steps = 0;
