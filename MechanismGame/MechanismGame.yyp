@@ -1967,6 +1967,14 @@
             }
         },
         {
+            "Key": "a791c7b6-8f98-413b-9dba-38e72822fa2d",
+            "Value": {
+                "id": "e6866fa0-79f5-4763-b717-ad97ec6c5d84",
+                "resourcePath": "sprites\\spr_enemy_hand_thumb_attackHB\\spr_enemy_hand_thumb_attackHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7a6fcfa-9642-4def-89bc-36a36e567a3f",
             "Value": {
                 "id": "39941f18-710b-45fd-ac1b-e29ef8a8c945",
@@ -2716,6 +2724,14 @@
                 "id": "de133b96-dd3e-42e6-844f-dc068bd1e541",
                 "resourcePath": "scripts\/LastHumanState_Idle\/LastHumanState_Idle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e914a6eb-55da-4897-8ae2-aea7fed06768",
+            "Value": {
+                "id": "ed97911d-aa1c-41e6-96bd-7c9c271d614c",
+                "resourcePath": "sprites\\spr_enemy_hand_leap_attackHB\\spr_enemy_hand_leap_attackHB.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
