@@ -2519,6 +2519,14 @@
             }
         },
         {
+            "Key": "e0db4144-2a2b-4a7d-8815-c58e69c2b131",
+            "Value": {
+                "id": "ae6582b9-70e9-4e48-b1ef-39c8dbd896da",
+                "resourcePath": "scripts\\HandLeap\\HandLeap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e144ba77-def8-48a6-acf1-7fabded8d53f",
             "Value": {
                 "id": "a88280d7-1967-42ba-b946-1c27e841bfba",
@@ -2930,6 +2938,7 @@
         "ab8a5ecc-825a-4c9f-923f-d8b129553031",
         "d7f22c2c-dd27-4430-902d-ecab94d65a91",
         "6f992700-3eeb-45e8-b26e-aaf959d39b3c",
+        "e0db4144-2a2b-4a7d-8815-c58e69c2b131",
         "e85d8b0c-4e14-4a8d-abce-3dcce21526dd",
         "0df41025-5428-426f-a693-a329f243bbf4",
         "a0d9f12f-6b80-4b1d-9b60-c977c9037e80",

@@ -1,5 +1,6 @@
 
 xtarget = follow.x - x;
+
 ytarget = follow.y - y;
 
 
@@ -19,6 +20,7 @@ if(place_meeting(x + hsp, y, obj_block))
 x = x + hsp*walking_direction;;
 
 //Vertical Collision
+
 if(place_meeting(x, y + vsp, obj_block))
 {
 	while(!place_meeting(x,y + sign(vsp),obj_block))
@@ -27,6 +29,9 @@ if(place_meeting(x, y + vsp, obj_block))
 	}
 	vsp = 0;
 }
+
+
+
 y = y + vsp;
 
 
@@ -47,14 +52,19 @@ switch(state)
 	case HAND_STATE.PATROL:
 		HandPatrol();
 	break;
-	case HAND_STATE.LEAPATTACK:
 	
+	case HAND_STATE.LEAPATTACK:
+		HandLeap();
 	break;
+	
 	case HAND_STATE.SNEAK:
 		HandSneak();
 	break;
+	
 	case HAND_STATE.THUMBATTACK:
 	
+	default:
+		HandPatrol();
 	break;
 }
 
@@ -76,7 +86,7 @@ if(instance_exists(obj_player)) { // check if player is in sight
 		HandCheckLeftSight();
 	}
 	else {
-		state = HAND_STATE.PATROL;
+		state = state;
 	}
 }
 

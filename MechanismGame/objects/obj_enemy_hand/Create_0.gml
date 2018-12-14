@@ -12,6 +12,8 @@ walking_direction = 1; // also regulates the turning of the sprite, see step cod
 
 pause_steps = 0;
 
+leapspd = 4;
+
 enum HAND_STATE
 {
 	PATROL,

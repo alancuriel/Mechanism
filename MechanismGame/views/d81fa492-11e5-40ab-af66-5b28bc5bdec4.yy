@@ -9,7 +9,8 @@
         "da8d14b6-4c3a-4434-8b4f-74123b9768a1",
         "ab8a5ecc-825a-4c9f-923f-d8b129553031",
         "d7f22c2c-dd27-4430-902d-ecab94d65a91",
-        "6f992700-3eeb-45e8-b26e-aaf959d39b3c"
+        "6f992700-3eeb-45e8-b26e-aaf959d39b3c",
+        "e0db4144-2a2b-4a7d-8815-c58e69c2b131"
     ],
     "filterType": "GMScript",
     "folderName": "HandEnemy",
