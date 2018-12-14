@@ -1079,11 +1079,27 @@
             }
         },
         {
+            "Key": "65d8012c-af7b-4c07-9980-23a916419463",
+            "Value": {
+                "id": "61e68745-85e7-4960-850c-482983f48ee5",
+                "resourcePath": "objects\\obj_room_transition\\obj_room_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "66ad371a-47c5-4c8a-8dfc-513514112252",
             "Value": {
                 "id": "c1d8d226-634c-4411-a6bb-6d1307f8f79e",
                 "resourcePath": "objects\/obj_sword\/obj_sword.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6838ecf7-7f81-4492-8d04-ddc164f95fae",
+            "Value": {
+                "id": "a59df454-726a-4330-8efe-5efd10cf7cbe",
+                "resourcePath": "sprites\\spr_room_transition\\spr_room_transition.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
