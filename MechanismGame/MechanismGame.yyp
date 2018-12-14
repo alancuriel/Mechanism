@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "32639ba1-4281-463f-848c-66c72dc1876b",
+            "Value": {
+                "id": "a15d6f04-7d16-4ab5-8ac1-3cf035f5747d",
+                "resourcePath": "sounds\\snd_last_human_\\snd_last_human_.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "328cb964-d5b2-4c5c-99ff-7a6f5baf0cbf",
             "Value": {
                 "id": "728ecc18-c9df-439e-8a77-b687a83dd634",
@@ -964,6 +972,14 @@
                 "id": "777cce7b-dac1-4ca1-8509-d508dd2ef8ed",
                 "resourcePath": "sprites\/spr_player_1_cape_head_jump\/spr_player_1_cape_head_jump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "493e9e1d-dc9f-4328-9e85-13e2f66606d0",
+            "Value": {
+                "id": "f34bc464-265c-47ec-b607-a0e92f0866da",
+                "resourcePath": "sounds\\snd_coin_jingle\\snd_coin_jingle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2308,6 +2324,14 @@
                 "id": "525c621c-331a-4cc5-8a89-de633a0257be",
                 "resourcePath": "scripts\/HandPatrol\/HandPatrol.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1a2a869-f166-4cf9-bdf0-f1d3ef5ce98e",
+            "Value": {
+                "id": "96503ae5-bb96-4cc5-9523-3339701f3be5",
+                "resourcePath": "sounds\\snd_last_human_explode\\snd_last_human_explode.yy",
+                "resourceType": "GMSound"
             }
         },
         {

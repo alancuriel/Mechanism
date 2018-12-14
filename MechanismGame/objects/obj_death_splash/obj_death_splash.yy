@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_death_splash",
     "eventList": [
-        
+        {
+            "id": "fb36dc0f-9e81-4b9c-823e-b06a249a250a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "08355b8f-c7bd-4875-8d9c-d65ec031eb34"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
