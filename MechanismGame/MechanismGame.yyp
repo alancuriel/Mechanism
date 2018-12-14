@@ -1479,14 +1479,6 @@
             }
         },
         {
-            "Key": "8dfd01a1-769f-4dbf-8a38-7f844acb2b73",
-            "Value": {
-                "id": "5fc71374-e8ba-4541-85e3-9f78c92973a7",
-                "resourcePath": "sprites\\spr_last_human_leap_attackHB\\spr_last_human_leap_attackHB.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8eb701d0-9a59-4084-8be9-60021eac8dee",
             "Value": {
                 "id": "1ef65d1f-3f01-4f9d-8813-672a4f5e36a4",
@@ -1611,6 +1603,14 @@
             "Value": {
                 "id": "270ace36-d99f-4ad3-9091-9a54344d204d",
                 "resourcePath": "sprites\/spr_SMG2\/spr_SMG2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "987be8b4-c27e-4586-8ea2-25f93fa1622b",
+            "Value": {
+                "id": "66f78eb7-9a9d-47fb-88b1-83c14f7669a6",
+                "resourcePath": "sprites\\spr_last_human_leap_attackHB\\spr_last_human_leap_attackHB.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2292,6 +2292,14 @@
                 "id": "62d4ce69-5f36-4606-b17c-22fad31642c4",
                 "resourcePath": "rooms\/rm_hot_weapon_3\/rm_hot_weapon_3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "db358884-2274-4ac6-bfcd-8869a5236711",
+            "Value": {
+                "id": "424ca0dd-49ab-42de-bb84-f7929e5d3611",
+                "resourcePath": "sprites\\spr_last_human_frenzy_waveHB\\spr_last_human_frenzy_waveHB.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -28,7 +28,7 @@ mask_index = spr_last_human_charge1HB;
 				with(hitID)
 				{
 					
-					obj_health_bar.playerhp -= 50;
+					obj_health_bar.playerhp -= 20;
 				}
 			}
 		}

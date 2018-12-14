@@ -9,7 +9,7 @@ thrusttmr = 60;
 stage = 1;
 state = LAST_HUMAN_STATE.LAY;
 
-hp = 1000;
+hp = 10000;
 maxhp = hp;
 
 awake = false;
@@ -27,10 +27,6 @@ trans_sprites[1] = spr_last_human_phase_transition_2;
 trans_sprites[0] = spr_last_human_phase_transition_1;
 trans_sprites_count = array_length_1d(trans_sprites);
 
-death_index = 0;
-death_sprites[1] = spr_last_human_death_laying;
-death_sprites[0] = spr_last_human_death;
-death_sprites_count = array_length_1d(death_sprites);
 
 
 enum LAST_HUMAN_STATE
