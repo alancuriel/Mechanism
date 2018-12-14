@@ -1079,6 +1079,14 @@
             }
         },
         {
+            "Key": "621cb87d-dd4d-4df3-a9d5-c6c82f6a916e",
+            "Value": {
+                "id": "4c123fee-8a4c-444d-9a5e-4331f5da6a7f",
+                "resourcePath": "scripts\\HandThumbAttack\\HandThumbAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "62fd06db-d833-4fb3-ae20-d1101a1165ad",
             "Value": {
                 "id": "5097d2a2-35ff-40bb-82ce-30f6329b24f6",
@@ -2939,6 +2947,7 @@
         "d7f22c2c-dd27-4430-902d-ecab94d65a91",
         "6f992700-3eeb-45e8-b26e-aaf959d39b3c",
         "e0db4144-2a2b-4a7d-8815-c58e69c2b131",
+        "621cb87d-dd4d-4df3-a9d5-c6c82f6a916e",
         "e85d8b0c-4e14-4a8d-abce-3dcce21526dd",
         "0df41025-5428-426f-a693-a329f243bbf4",
         "a0d9f12f-6b80-4b1d-9b60-c977c9037e80",

@@ -1,19 +1,20 @@
 
 if(sprite_index != spr_enemy_hand_leap_attack)
 {
+	hsp = leapspd;
 	sprite_index = spr_enemy_hand_leap_attack;
 }
 
 
-image_speed = 1;
-hsp = leapspd;
-
-
-
-
 if(animation_end())
 {
-	state = HAND_STATE.SNEAK;
+	if (!leap_is_alarm_set) {
+		image_speed = 0;
+		hsp = 0;
+		alarm[1] = 90;
+		leap_is_alarm_set = 1;
+	}
+	
 }
 else {
 	state = HAND_STATE.LEAPATTACK;

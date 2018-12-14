@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @ alarm for pausing before sneaking
 // You can write your code in this editor
 
 image_speed = 1;
