@@ -1,19 +1,10 @@
 {
-    "id": "753991d4-073b-4717-871e-f7f839f37823",
+    "id": "1c3bf413-7965-49b1-8cad-595f21853ebc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ladder",
+    "name": "obj_boss_door",
     "eventList": [
-        {
-            "id": "a8e28d07-a122-432b-a568-faa3042875f6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "753991d4-073b-4717-871e-f7f839f37823"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2d8c0947-60f9-4dc3-abed-89070e6beff3",
+    "spriteId": "d321d54b-cc5c-45d7-8600-648c42ffa78d",
     "visible": true
 }

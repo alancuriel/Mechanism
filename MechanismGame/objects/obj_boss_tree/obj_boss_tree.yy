@@ -1,19 +1,10 @@
 {
-    "id": "753991d4-073b-4717-871e-f7f839f37823",
+    "id": "0b873713-ac7f-4da3-985f-1d5d00df0e92",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ladder",
+    "name": "obj_boss_tree",
     "eventList": [
-        {
-            "id": "a8e28d07-a122-432b-a568-faa3042875f6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "753991d4-073b-4717-871e-f7f839f37823"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2d8c0947-60f9-4dc3-abed-89070e6beff3",
+    "spriteId": "3e6a23c6-1991-4dd8-8e9b-394652c7eb19",
     "visible": true
 }

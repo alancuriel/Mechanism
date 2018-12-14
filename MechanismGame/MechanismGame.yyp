@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0b873713-ac7f-4da3-985f-1d5d00df0e92",
+            "Value": {
+                "id": "e5e28908-60d7-43c0-8ead-82a71317c639",
+                "resourcePath": "objects\\obj_boss_tree\\obj_boss_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b8c279a-5ddc-461f-b93e-677f12f975d8",
             "Value": {
                 "id": "52c1ef8f-3fc8-47b3-9397-14a0fccf2236",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "7a30bc6a-e394-4172-9b6b-f4e58b6212be",
                 "resourcePath": "objects\/obj_decoration\/obj_decoration.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1c3bf413-7965-49b1-8cad-595f21853ebc",
+            "Value": {
+                "id": "e4a94ff8-eafd-4b30-85db-b77b5c9cea9a",
+                "resourcePath": "objects\\obj_boss_door\\obj_boss_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -756,6 +772,14 @@
                 "id": "e201fd3b-e010-4c22-9efe-73f4f384e380",
                 "resourcePath": "views\/3e59a6ef-f76c-41f6-83b8-0e49c97dd16b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e6a23c6-1991-4dd8-8e9b-394652c7eb19",
+            "Value": {
+                "id": "bc91703f-22d2-4e0a-83a9-5b7c3937bb9d",
+                "resourcePath": "sprites\\spr_boss_tree\\spr_boss_tree.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2436,6 +2460,14 @@
                 "id": "6729c850-0f78-4624-9640-0a0f56f2e4e8",
                 "resourcePath": "objects\/obj_rocket_launcher1\/obj_rocket_launcher1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d321d54b-cc5c-45d7-8600-648c42ffa78d",
+            "Value": {
+                "id": "ebdeb300-d1fa-4d0e-9a4f-f0234345a6c7",
+                "resourcePath": "sprites\\spr_boss_door\\spr_boss_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
