@@ -57,6 +57,7 @@ if(!place_meeting(x,y+1,obj_block))
 }
 else
 {
+		if(sprite_index == spr_player_1_body_jump) audio_play_sound(snd_player_1_land,3,false);
 		image_speed = 1;
 		with(obj_player_cape_head) image_speed = 1;
 		if(hsp == 0)
@@ -69,7 +70,9 @@ else
 		{
 			sprite_index = spr_player_1_body_walk;
 			with(obj_player_cape_head) sprite_index = spr_player_1_cape_head_walk;
+			if(animation_end()) audio_play_sound(snd_player_1_foot_step,6,false);
 		}
+		
 }
 
 if(key_r)

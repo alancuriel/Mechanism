@@ -118,7 +118,7 @@ if(weaponout && key_r)
 	weaponout = false;
 }
 */
-
+//if() audio_play_sound(snd_player_1_foot_step,6,false);
 
 if(hsp != 0) image_xscale = sign(hsp);
 

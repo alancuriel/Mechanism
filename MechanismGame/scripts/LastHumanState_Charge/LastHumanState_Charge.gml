@@ -1,8 +1,8 @@
 if(instance_exists(obj_player))
 {
 	var xtarget = obj_player.x - x;
-	
-}
+	if(xtarget == 0) xtarget +=1;
+} 
 
 if(sprite_index != spr_last_human_charge1)
 {

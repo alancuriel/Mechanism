@@ -61,10 +61,10 @@ with(obj_swrd)
 				ds_list_add(other.hitByAttack,hitID);
 				with(hitID)
 				{
-					hsp = -hsp;
-					vsp = -3;
-					flash = 3;
+					
 					hp = hp -50;
+					audio_play_sound(snd_sword_hit,5,false);
+					hitSplash();
 				}
 			}
 		}
