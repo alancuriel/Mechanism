@@ -4,7 +4,7 @@ ytarget = follow.y - y;
 
 
 vsp = vsp + grv;
-hsp = walkspd;
+
 //Horizontal Collision
 //always check primary wall boundries, but enemy wall boundaries are only checked in patrol mode
 if(place_meeting(x + hsp, y, obj_block))
@@ -29,8 +29,7 @@ if(place_meeting(x, y + vsp, obj_block))
 }
 y = y + vsp;
 
-//change image direction based on walking direction
-image_xscale = sign(walking_direction)
+
 
 //if(abs(xtarget) < 800)
 //{
@@ -58,6 +57,45 @@ switch(currentstate)
 	
 	break;
 }
+
+if (walking_direction) {
+	h_rightsight_range = h_frontsight_range;
+	h_leftsight_range = h_backsight_range
+}
+else {
+	h_rightsight_range = h_backsight_range;
+	h_leftsight_range = h_frontsight_range
+}
+
+if(instance_exists(obj_player)) { // check if player is in sight
+	//check verticle range first
+	if (abs(y-obj_player.y) <= v_sight_range) {
+		// check right sight
+		if(obj_player.x-x >= 0 && obj_player.x-x <= h_rightsight_range) {
+			if(h_rightsight_range == h_backsight_range) {
+				walking_direction = -walking_direction;
+			}
+			HandPause();
+		}
+		// check left sight
+		if(obj_player.x-x < 0 && x-obj_player.x <= h_leftsight_range) {
+			if(h_leftsight_range == h_backsight_range) {
+				walking_direction = -walking_direction;
+			}
+			HandPause();
+		}
+	}
+}
+
+ //if(walking_direction && (obj_player.x-x <= h_frontsight_range || (x-obj_player.x) * walking_direction)) {
+	 
+	//if((obj_player.x-x) * walking_direction <= h_frontsight_range || (x-obj_player.x) * walking_direction <= h_frontsight_range && abs(y-obj_player.y) <= v_sight_range) {
+	////pause for a second
+		
+	//}
+		
+//change image direction based on walking direction
+image_xscale = sign(walking_direction)
 
 state = HAND_STATE.PATROL;
 /*/Player Aggro

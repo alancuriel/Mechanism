@@ -2407,6 +2407,14 @@
             }
         },
         {
+            "Key": "da8d14b6-4c3a-4434-8b4f-74123b9768a1",
+            "Value": {
+                "id": "063c26d7-400e-4dba-af04-7d46af6d2408",
+                "resourcePath": "scripts\\HandPause\\HandPause.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db358884-2274-4ac6-bfcd-8869a5236711",
             "Value": {
                 "id": "424ca0dd-49ab-42de-bb84-f7929e5d3611",
@@ -2894,6 +2902,7 @@
         "82284a0b-d43d-4753-8c47-19f33a06213d",
         "c14e61ae-4dd5-4175-ae7f-51d021d77e4b",
         "1d410ec7-618a-46b3-a904-13dd462a76e5",
+        "da8d14b6-4c3a-4434-8b4f-74123b9768a1",
         "e85d8b0c-4e14-4a8d-abce-3dcce21526dd",
         "0df41025-5428-426f-a693-a329f243bbf4",
         "a0d9f12f-6b80-4b1d-9b60-c977c9037e80",
