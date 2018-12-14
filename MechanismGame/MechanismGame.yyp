@@ -975,6 +975,14 @@
             }
         },
         {
+            "Key": "493e9e1d-dc9f-4328-9e85-13e2f66606d0",
+            "Value": {
+                "id": "f34bc464-265c-47ec-b607-a0e92f0866da",
+                "resourcePath": "sounds\\snd_coin_jingle\\snd_coin_jingle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4d914672-294d-45ba-a150-fe2f8164259a",
             "Value": {
                 "id": "b2fdf3e3-da38-40f7-920e-73f498a8628b",
