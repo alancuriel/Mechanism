@@ -1,8 +1,8 @@
 {
-    "id": "e4897b7b-4799-4d42-bb2b-7e506f80c7d6",
+    "id": "7e961b16-04a3-469e-ac25-80d226bf6539",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_player_1_attack_up",
+    "name": "snd_sword_hit",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 1
+    "volume": 0.42
 }

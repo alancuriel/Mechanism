@@ -1,8 +1,8 @@
 {
-    "id": "e4897b7b-4799-4d42-bb2b-7e506f80c7d6",
+    "id": "c9fad7b2-62d4-4984-b54e-178157a60dd5",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_player_1_attack_up",
+    "name": "snd_player_recall_sword",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
