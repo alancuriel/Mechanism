@@ -7,3 +7,4 @@ if(flash > 0)
 	draw_self();
 	shader_reset();
 }
+

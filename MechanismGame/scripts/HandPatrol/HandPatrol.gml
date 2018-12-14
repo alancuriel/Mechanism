@@ -1,17 +1,24 @@
-
-	var _x = xstart - x;
+if(place_meeting(x + hsp, y, obj_block_enemy))
+{
 	
-	if(abs(_x) < 500)
-	{
-		hsp = walkspd;
-		if(abs(_x) > 400)
-		{
-			hsp = -hsp;
-		}
+	walking_direction = -walking_direction;
+	//image_xscale = - image_xscale;
+}
+
+
+	//var _x = xstart - x;
+	
+	//if(abs(_x) < 500)
+	//{
+	//	hsp = walkspd;
+	//	if(abs(_x) > 400)
+	//	{
+	//		hsp = -hsp;
+	//	}
 		
-	}
-	else
-	{
-		hsp = walkspd * sign(_x);
-	}
+	//}
+	//else
+	//{
+	//	hsp = walkspd * sign(_x);
+	//}
 	
