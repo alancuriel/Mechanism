@@ -62,7 +62,8 @@ switch(state)
 	break;
 	
 	case HAND_STATE.THUMBATTACK:
-	
+		HandThumbAttack();
+		break;
 	default:
 		HandPatrol();
 	break;

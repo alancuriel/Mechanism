@@ -11,7 +11,7 @@ if(animation_end())
 	if (!leap_is_alarm_set) {
 		image_speed = 0;
 		hsp = 0;
-		alarm[1] = 90;
+		alarm[1] = 60;
 		leap_is_alarm_set = 1;
 	}
 	
