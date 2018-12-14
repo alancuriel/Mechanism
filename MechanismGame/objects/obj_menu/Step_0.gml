@@ -26,7 +26,11 @@ if(menu_committed != -1)
 {
 	switch(menu_committed)
 	{
-		case 2: default: room_goto(rm_basement_1); break;
+		case 2: default: 
+		room_goto(rm_basement_1); 
+		audio_stop_all(); 
+		audio_play_sound(snd_armoury_music,1,true);
+			break;
 		case 0: game_end(); break;
 	}
 }

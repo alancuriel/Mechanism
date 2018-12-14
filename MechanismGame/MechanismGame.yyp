@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "596f364a-af13-402b-9cc9-d7001217df24",
+            "Value": {
+                "id": "15a2e911-b3f9-47b7-8a6d-d6b818931053",
+                "resourcePath": "scripts\\gotobasmentwithmusic\\gotobasmentwithmusic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a30ffa5-2a59-4195-b6f7-ea37a711a37a",
             "Value": {
                 "id": "db2116a3-7c05-46ab-b459-fd3ccced89a2",
@@ -3102,7 +3110,8 @@
         "7f074150-97c5-4536-a6b9-a85e5f700a53",
         "4102b1b0-1f69-42a6-8d31-9093630fce96",
         "6c9aaba3-3883-40a8-bca8-8ed81700b651",
-        "a1ae6531-ee1a-4f54-96d2-2816954ad3a9"
+        "a1ae6531-ee1a-4f54-96d2-2816954ad3a9",
+        "596f364a-af13-402b-9cc9-d7001217df24"
     ],
     "tutorial": ""
 }
