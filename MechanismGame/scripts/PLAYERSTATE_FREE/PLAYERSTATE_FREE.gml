@@ -1,4 +1,4 @@
-with(obj_swrd) 
+ with(obj_swrd) 
 {
 	if(!followPlayer){
 	visible = 1;} else {
@@ -12,6 +12,7 @@ if(place_meeting(x, y + 1, obj_block) && key_jump)
 	{
 		sprite_index = spr_player_1_cape_head_jump;
 		image_index = 1;
+		image_speed = 1;
 	}
 	sprite_index = spr_player_1_body_jump;
 	image_index = 1;
@@ -52,15 +53,12 @@ y = y + vsp;
 if(!place_meeting(x,y+1,obj_block))
 {
 	
-	if(floor(vsp) == 0)
-	{
-		image_index = 4;
-		image_speed = 1;
-	}	
+	
 }
 else
 {
 		image_speed = 1;
+		with(obj_player_cape_head) image_speed = 1;
 		if(hsp == 0)
 		{
 			

@@ -67,6 +67,7 @@ with(obj_swrd)
 					
 					flash = 3;
 					hp = hp -50;
+					hitSplash();
 				}
 			}
 		}

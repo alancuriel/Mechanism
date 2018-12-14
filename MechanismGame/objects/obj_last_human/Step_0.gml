@@ -51,4 +51,9 @@ if((hp < maxhp/2) && stage != 2)
 	state = LAST_HUMAN_STATE.TRANS;
 	
 }
-if(hp < 0) state = LAST_HUMAN_STATE.DEAD;
+if(hp < 0  && awake)
+{
+	awake = false;
+	state = LAST_HUMAN_STATE.DEAD;
+	
+}
