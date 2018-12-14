@@ -1,3 +1,14 @@
+if(hitCount >= 9)
+{
+	hitCount = 0;
+	playerhp += (playermaxhp * 0.3);
+	
+}
+
+playerhp = min(playerhp, playermaxhp);
+
+
+
 if(playerhp >= playermaxhp) image_index = 0;
 if(playerhp <= (playermaxhp/7) * 6) image_index = 1;
 if(playerhp <= (playermaxhp/7) * 5) image_index = 2;

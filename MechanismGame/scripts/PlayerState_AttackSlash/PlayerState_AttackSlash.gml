@@ -62,7 +62,7 @@ with(obj_swrd)
 				ds_list_add(other.hitByAttack,hitID);
 				with(hitID)
 				{
-					
+					obj_health_bar.hitCount++;
 					
 					
 					hp = hp -50;
