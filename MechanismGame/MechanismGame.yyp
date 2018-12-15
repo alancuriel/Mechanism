@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "4bf9b536-f66b-49b0-a51a-7302060781ec",
+            "Value": {
+                "id": "3e996a77-17bf-4ec4-95bd-21339ed12f02",
+                "resourcePath": "scripts\\UpOneLevel\\UpOneLevel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4d914672-294d-45ba-a150-fe2f8164259a",
             "Value": {
                 "id": "b2fdf3e3-da38-40f7-920e-73f498a8628b",
@@ -1252,6 +1260,14 @@
                 "id": "541e42f4-bd60-44d6-acc8-c1cd0d3eb30c",
                 "resourcePath": "rooms\/rm_logo\/rm_logo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "69f86839-606b-4b4d-b107-78c09f4d3182",
+            "Value": {
+                "id": "ede1f15d-2e91-4d9d-baa9-5d91c982a371",
+                "resourcePath": "sounds\\snd_elevator_activate\\snd_elevator_activate.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1548,6 +1564,14 @@
                 "id": "996c4660-8e7d-4518-990c-8eb63ababadd",
                 "resourcePath": "scripts\/PlayerState_Attack_Combo\/PlayerState_Attack_Combo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8060100a-d926-47af-ba28-c4ff12d4392e",
+            "Value": {
+                "id": "9978c68f-6a45-442d-903f-c5dcbdd79c75",
+                "resourcePath": "views\\8060100a-d926-47af-ba28-c4ff12d4392e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3159,7 +3183,8 @@
         "4102b1b0-1f69-42a6-8d31-9093630fce96",
         "6c9aaba3-3883-40a8-bca8-8ed81700b651",
         "a1ae6531-ee1a-4f54-96d2-2816954ad3a9",
-        "596f364a-af13-402b-9cc9-d7001217df24"
+        "596f364a-af13-402b-9cc9-d7001217df24",
+        "4bf9b536-f66b-49b0-a51a-7302060781ec"
     ],
     "tutorial": ""
 }

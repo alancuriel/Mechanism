@@ -26,7 +26,6 @@ switch(state)
 
 
 
-
 /*THRUST
 if(right_click)
 {

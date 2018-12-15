@@ -22,6 +22,7 @@ if(place_meeting(x, y + vsp, obj_block))
 }
 y = y + vsp;
 
+
 //Start of attack
 if(sprite_index != spr_player_1_body_attack_up)
 {
