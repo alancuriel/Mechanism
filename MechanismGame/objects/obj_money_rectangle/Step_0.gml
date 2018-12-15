@@ -39,6 +39,8 @@ image_xscale = sign(walking_direction)
 
 if(hp <=0)
 {
-	instance_create_depth(x, y,-1600 ,obj_death_splash);
+	death_splash = instance_create_depth(x, y,-2000 ,obj_death_splash);
+	death_splash.xcale = 1.5;
+	death_splash.ycale = 1.5;
 	instance_destroy();
 }

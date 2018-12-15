@@ -4,7 +4,7 @@ vsp = 0;
 grv = 0.5;
 walkspd = 6.5;
 jump = -16.5;
-
+flash = 0;
 
 startingangle = 0;
 

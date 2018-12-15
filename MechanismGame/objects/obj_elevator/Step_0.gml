@@ -18,9 +18,8 @@
 if (instance_exists(obj_player)) {
 	if(abs(abs(x-obj_player.x) < 8) && abs(abs(y-obj_player.y) < 200)) {
 		if(!is_lift_activate && ! is_player_already_on) {	// if the lift is not activated, activate it
-			is_lift_activate = 1;
-			
-			audio_play_sound(snd_elevator_activate, 5, false);
+			is_lift_activate = 1;	
+			lifting_audio = 0;
 		}
 		is_player_already_on = 1;
 		//else {
@@ -38,10 +37,12 @@ if (instance_exists(obj_player)) {
 
 if(y < FIRST_FLOOR_Y && up_or_down == 1) {
 	is_lift_activate = 0;
+	audio_stop_sound(snd_elevator_moving);
 	up_or_down = -1;
 }
 else if(y > BASEMENT_Y && up_or_down == -1) {
 	is_lift_activate = 0;
+	audio_stop_sound(snd_elevator_moving);
 	up_or_down = 1;
 }
 
@@ -58,3 +59,14 @@ y = y + vsp;
 //if(abs(abs(x-obj_player.x) < 25) && abs(abs(y-obj_player.y) < 100)) {
 	
 //}
+
+if(is_lift_activate) {
+	if(lifting_audio <= 0) {
+		audio_play_sound(snd_elevator_moving, 5, 0);
+		lifting_audio = LIFTING_AUDIO_RATE;
+	}
+	lifting_audio -= 1;
+}
+else {
+	lifting_audio = LIFTING_AUDIO_RATE 
+}

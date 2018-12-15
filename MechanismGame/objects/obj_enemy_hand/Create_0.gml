@@ -18,6 +18,8 @@ leapspd = 5;
 
 hitByAttack = ds_list_create();
 
+is_already_hit = 0;
+
 enum HAND_STATE
 {
 	PATROL,
