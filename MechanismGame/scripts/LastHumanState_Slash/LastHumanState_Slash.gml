@@ -24,7 +24,7 @@ mask_index = spr_last_human_slashHB;
 				with(hitID)
 				{
 					
-					obj_health_bar.playerhp -= 50;
+					hitPlayer();
 				}
 			}
 		}

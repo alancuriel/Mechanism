@@ -9,7 +9,7 @@
         "17ca2913-5ccc-43cc-ac4c-5bc754149d03"
     ],
     "filterType": "GMObject",
-    "folderName": "obj_enemies",
+    "folderName": "enemies",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -31,7 +31,7 @@ if(sprite_index != spr_last_human_leap_attack)
 				with(hitID)
 				{
 					
-					obj_health_bar.playerhp -= 30;
+					hitPlayer();
 				}
 			}
 		}

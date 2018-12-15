@@ -26,7 +26,7 @@ mask_index = spr_last_human_thrustHB;
 				with(hitID)
 				{
 					
-					obj_health_bar.playerhp -= 50;
+					hitPlayer();
 				}
 			}
 		}

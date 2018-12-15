@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0ffa3a3a-0a7c-45e2-877d-a9350d967d95",
+            "Value": {
+                "id": "9fe8c495-73ea-4d37-862e-2e0799ac6d4c",
+                "resourcePath": "sprites\\sprite151\\sprite151.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "111dc116-54c8-4330-860c-94772b45126d",
             "Value": {
                 "id": "fa8c4dff-1145-4b09-9a9c-caa34125b204",
@@ -779,6 +787,14 @@
             "Value": {
                 "id": "9a217d04-d43b-4f47-9cc8-2c79db710cb9",
                 "resourcePath": "objects\/obj_SMG3\/obj_SMG3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c7c2247-9bd6-478c-8074-54c0b99e21cd",
+            "Value": {
+                "id": "fa13028d-c1cb-4272-9cda-2db749e10d61",
+                "resourcePath": "objects\\obj_LH_activator\\obj_LH_activator.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1559,6 +1575,14 @@
             }
         },
         {
+            "Key": "7df92789-266e-4c02-be5b-7778c77ece69",
+            "Value": {
+                "id": "09e899fa-2227-474e-a409-15e9ab424aed",
+                "resourcePath": "sprites\\sprite152\\sprite152.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e961b16-04a3-469e-ac25-80d226bf6539",
             "Value": {
                 "id": "73f90d9a-83ab-45ba-9df4-624a96a69e0a",
@@ -1987,6 +2011,14 @@
             "Value": {
                 "id": "e713e6e2-cf7c-4239-a7d8-419671e1f059",
                 "resourcePath": "sprites\/spr_last_human_up_slash\/spr_last_human_up_slash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1614a72-16cd-4c85-8339-d49de7689b44",
+            "Value": {
+                "id": "13071eb9-0e55-450d-b22d-6aaa4196d6a8",
+                "resourcePath": "sprites\\spr_boss_activator\\spr_boss_activator.yy",
                 "resourceType": "GMSprite"
             }
         },
