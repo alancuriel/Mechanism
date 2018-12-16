@@ -1271,6 +1271,14 @@
             }
         },
         {
+            "Key": "68202734-1de1-4479-a9a0-0a7fc8ce6682",
+            "Value": {
+                "id": "5b821495-716e-44dc-9b6c-476613fb039f",
+                "resourcePath": "sounds\\snd_LH_wakeup\\snd_LH_wakeup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6838ecf7-7f81-4492-8d04-ddc164f95fae",
             "Value": {
                 "id": "a59df454-726a-4330-8efe-5efd10cf7cbe",
@@ -2556,6 +2564,14 @@
                 "id": "da387cd2-437f-4d6d-84dd-930269aaec04",
                 "resourcePath": "sprites\/spr_map_armory_backwall\/spr_map_armory_backwall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd973167-3dcd-499e-a150-6df9cdefd143",
+            "Value": {
+                "id": "948be257-1f56-4f54-99bb-86b859b0590e",
+                "resourcePath": "sounds\\snd_LH_laying\\snd_LH_laying.yy",
+                "resourceType": "GMSound"
             }
         },
         {
