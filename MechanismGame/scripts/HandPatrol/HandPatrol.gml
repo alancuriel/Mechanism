@@ -6,6 +6,8 @@ if(sprite_index != spr_enemy_hand_petrol)
 	sprite_index = spr_enemy_hand_petrol;
 }
 
+image_speed = 1;
+
 hsp = walkspd;
 if(place_meeting(x + hsp, y, obj_block_enemy))
 {

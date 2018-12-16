@@ -30,7 +30,7 @@ if(sprite_index != spr_enemy_hand_thumb_attack)
 
 if (animation_end()) {
 	is_already_hit = 0;
-	if(abs(obj_player.x-x) < 160) {
+	if(abs(obj_player.x-x) < 140) {
 	
 		state = HAND_STATE.THUMBATTACK;
 	}

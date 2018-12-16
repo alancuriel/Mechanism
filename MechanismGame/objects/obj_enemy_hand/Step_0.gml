@@ -46,6 +46,7 @@ if(hp <=0)
 	death_splash = instance_create_depth(x, y,-2000 ,obj_death_splash);
 	death_splash.xcale = 1.3;
 	death_splash.ycale = 1.3;
+	audio_play_sound(snd_enemy_death, 80, false);
 	instance_destroy();
 }
 
