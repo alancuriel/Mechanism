@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_law_enforcer",
     "eventList": [
-        
+        {
+            "id": "8b38ea62-8164-47e2-8e16-9ae52ae3b6dd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "0b8c279a-5ddc-461f-b93e-677f12f975d8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

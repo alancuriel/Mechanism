@@ -3159,6 +3159,14 @@
             }
         },
         {
+            "Key": "f0fe4192-7084-4a84-9385-6e7a8019f4af",
+            "Value": {
+                "id": "3f057532-a71c-430d-a41f-a96669f82c5d",
+                "resourcePath": "objects\\obj_death_note\\obj_death_note.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f10949b7-a08f-411d-92c0-12369046dfa9",
             "Value": {
                 "id": "9c49f210-afc7-426b-beac-77249abdfa3f",

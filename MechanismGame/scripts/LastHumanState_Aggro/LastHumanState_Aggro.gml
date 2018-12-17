@@ -4,4 +4,5 @@ if(sprite_index != spr_last_human_death_laying)
 	image_index = 0;
 }
 
+instance_create_depth(x, y, -2000, obj_death_note);
 
