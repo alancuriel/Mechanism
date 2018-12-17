@@ -2335,6 +2335,14 @@
             }
         },
         {
+            "Key": "b3977b17-e411-4d4c-a894-ccf1739ab9a6",
+            "Value": {
+                "id": "258662a2-f0e0-41d5-a5b1-2edbed3ddc2d",
+                "resourcePath": "objects\\obj_not_implemented\\obj_not_implemented.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b500c110-1df9-44d7-80f6-5e74734718de",
             "Value": {
                 "id": "ca7e8db1-e117-49ed-8490-4530bd5b8aaa",
