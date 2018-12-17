@@ -9,7 +9,7 @@ thrusttmr = 60;
 stage = 1;
 state = LAST_HUMAN_STATE.LAY;
 
-hp = 500;
+hp = 10;
 maxhp = hp;
 
 awake = false;
