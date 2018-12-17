@@ -39,10 +39,15 @@ image_xscale = sign(walking_direction)
 
 if(hp <=0)
 {
+	audio_stop_sound(snd_coin_jingle);
 	audio_play_sound(snd_enemy_death, 80, false);
 	death_splash = instance_create_depth(x, y,-2000 ,obj_death_splash);
 	death_splash.xcale = 1.3;
 	death_splash.ycale = 1.3;
 	instance_create_depth(x, y,-1600 ,obj_death_splash);
 	instance_destroy();
+}
+
+if(!audio_is_playing(snd_coin_jingle)) {
+	audio_play_sound(snd_coin_jingle, 20, false);
 }
