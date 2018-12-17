@@ -15,6 +15,8 @@ if(animation_end())
 	}
 }
 
+
+
 if(!audio_is_playing(snd_LH_wakeup)) {
 	audio_play_sound(snd_LH_wakeup, 40, false);
 }

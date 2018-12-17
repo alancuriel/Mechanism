@@ -9,7 +9,9 @@ if(sprite_index != trans_sprites[trans_index])
 	}
 }
 
-
+if(sprite_index == trans_sprites[1]) {
+	audio_play_sound(snd_LH_transition_burst, 40, false);
+}
 
 if(animation_end())
 {
