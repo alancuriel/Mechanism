@@ -45,6 +45,10 @@ if(image_index >= 5)
 	hsp = 0;
 }
 
+if(image_index == 9) {
+	audio_play_sound(snd_last_human_leap, 60, false);
+}
+
 if(animation_end())
 {
 	hsp = 0;

@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0d8750fe-14f4-44bb-a428-9e9102cf8b1f",
+            "Value": {
+                "id": "b9e706e1-f206-4a01-a242-d4a46aac0cc0",
+                "resourcePath": "sounds\\snd_LH_transition_burst\\snd_LH_transition_burst.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0df41025-5428-426f-a693-a329f243bbf4",
             "Value": {
                 "id": "2320b8a0-8354-4a56-8e5b-3dd959ff254b",
@@ -404,6 +412,14 @@
                 "id": "ebc5945d-0b19-41a5-8162-09dd6c1265f9",
                 "resourcePath": "objects\/obj_ground_lamp_1\/obj_ground_lamp_1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1feac4f4-f850-436d-9c78-9c279d8aca2d",
+            "Value": {
+                "id": "93b05fd8-2775-4df4-9761-51bfbff215e4",
+                "resourcePath": "sounds\\snd_shockwave\\snd_shockwave.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -706,7 +722,7 @@
             "Key": "32639ba1-4281-463f-848c-66c72dc1876b",
             "Value": {
                 "id": "a15d6f04-7d16-4ab5-8ac1-3cf035f5747d",
-                "resourcePath": "sounds\\snd_last_human_\\snd_last_human_.yy",
+                "resourcePath": "sounds\\snd_last_human_leap\\snd_last_human_leap.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1164,6 +1180,14 @@
                 "id": "69618c5a-ea12-4d75-b4ee-718efc2f7f6a",
                 "resourcePath": "sprites\\spr_text_box\\spr_text_box.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c438c83-3d0c-434a-9847-f9df7bf6874f",
+            "Value": {
+                "id": "3fdd6202-236e-4070-b96f-48f7c5b48069",
+                "resourcePath": "sounds\\snd_LH_transition\\snd_LH_transition.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1843,6 +1867,14 @@
             "Value": {
                 "id": "977b3416-eff7-4e6b-8008-f22d285923d2",
                 "resourcePath": "sounds\\snd_open_note\\snd_open_note.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8d756872-c108-4042-97ff-3c525b01d48f",
+            "Value": {
+                "id": "11e7c4e5-d1ba-4c87-a667-b5e3d34c4cb7",
+                "resourcePath": "sounds\\snd_LH_death\\snd_LH_death.yy",
                 "resourceType": "GMSound"
             }
         },
