@@ -1463,6 +1463,14 @@
             }
         },
         {
+            "Key": "703cefc3-7a8f-41cc-8ef6-8bdee41553b3",
+            "Value": {
+                "id": "534d1b16-8a5b-49f7-824f-728c8007a6f3",
+                "resourcePath": "objects\\obj_moon_bog_transition\\obj_moon_bog_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "708b988c-0670-45bc-a14b-111d49f48c62",
             "Value": {
                 "id": "162606ae-bdcc-450a-9e26-ea4aa879a44c",
@@ -2324,6 +2332,14 @@
                 "id": "a46d97ec-387c-47f0-aaa8-bd7aa6fc53c6",
                 "resourcePath": "sprites\\spr_death_pit\\spr_death_pit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3977b17-e411-4d4c-a894-ccf1739ab9a6",
+            "Value": {
+                "id": "258662a2-f0e0-41d5-a5b1-2edbed3ddc2d",
+                "resourcePath": "objects\\obj_not_implemented\\obj_not_implemented.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3204,6 +3220,14 @@
                 "id": "67d8bec7-9661-445f-99eb-314a686d8f1d",
                 "resourcePath": "objects\/iron_bar\/iron_bar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f25d8949-91ce-4e62-a349-72885825a011",
+            "Value": {
+                "id": "c3eb3742-e50d-4c3d-a0f8-d1113c1d617e",
+                "resourcePath": "rooms\\rm_not_implemented\\rm_not_implemented.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
