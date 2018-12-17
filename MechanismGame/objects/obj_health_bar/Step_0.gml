@@ -16,3 +16,10 @@ if(playerhp <= (playermaxhp/7) * 4) image_index = 3;
 if(playerhp <= (playermaxhp/7) * 3) image_index = 4;
 if(playerhp <= (playermaxhp/7) * 2) image_index = 5;
 if(playerhp <= (playermaxhp/7) * 1) image_index = 6;
+
+
+if(playerhp <= 0)
+{
+	playerhp = playermaxhp;
+	room_goto(rm_death);
+}
