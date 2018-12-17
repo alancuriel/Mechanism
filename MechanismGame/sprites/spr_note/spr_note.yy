@@ -21,7 +21,7 @@
             "mvc": "1.0",
             "SpriteId": "8b671895-4a3b-4fa8-b619-738fd276583c",
             "compositeImage": {
-                "id": "66474020-a343-42ee-beef-8adbf601b241",
+                "id": "6c8df1a7-f09d-405b-8462-1395e4bcca9a",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
                 "FrameId": "e927737e-c006-462e-8136-d9a2d242f313",

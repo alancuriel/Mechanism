@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "11977cb9-7c75-461d-8ce9-e1095bd3228a",
+            "Value": {
+                "id": "b9c24503-5c53-4517-b0e2-1aebd6ea1b60",
+                "resourcePath": "objects\\obj_elevator_room_gradient\\obj_elevator_room_gradient.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11cd0687-7f99-47f6-9217-d3c1ab8cc599",
             "Value": {
                 "id": "56761331-b27c-437a-a447-9789f6a5ff02",
@@ -1799,6 +1807,14 @@
             }
         },
         {
+            "Key": "8d74de77-9539-42f7-8c87-99516f923304",
+            "Value": {
+                "id": "977b3416-eff7-4e6b-8008-f22d285923d2",
+                "resourcePath": "sounds\\snd_open_note\\snd_open_note.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8eb701d0-9a59-4084-8be9-60021eac8dee",
             "Value": {
                 "id": "1ef65d1f-3f01-4f9d-8813-672a4f5e36a4",
@@ -2188,6 +2204,14 @@
                 "id": "5327f97c-88df-4545-ae2f-a9877314f81e",
                 "resourcePath": "objects\/obj_player_1_sword_return\/obj_player_1_sword_return.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae2f3880-1447-4234-b8e5-414b9408f7f5",
+            "Value": {
+                "id": "fe6dbcf3-8552-49bd-8520-ffa160ead8c8",
+                "resourcePath": "sprites\\spr_piece_of_paper\\spr_piece_of_paper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2863,6 +2887,14 @@
             }
         },
         {
+            "Key": "e1cbd3ec-e42f-4661-a0e1-74f16f2f192c",
+            "Value": {
+                "id": "a3ebcc88-3f75-46f8-a9aa-6ec64c78396c",
+                "resourcePath": "objects\\obj_piece_of_paper\\obj_piece_of_paper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e1f790e1-1417-4db5-8af2-4811fa74e354",
             "Value": {
                 "id": "cd214058-6535-4fa2-8129-174288150ca5",
@@ -3139,6 +3171,14 @@
             "Value": {
                 "id": "b51e1b56-6adf-42da-8205-e40d8a926ed5",
                 "resourcePath": "sprites\/spr_dagger3\/spr_dagger3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f50e7791-741c-4566-9338-653627a70e14",
+            "Value": {
+                "id": "8d1b3273-1471-4fc7-b9fd-16b21808849a",
+                "resourcePath": "sprites\\spr_elevator_room_gradient\\spr_elevator_room_gradient.yy",
                 "resourceType": "GMSprite"
             }
         },

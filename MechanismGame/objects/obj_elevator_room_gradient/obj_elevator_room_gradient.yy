@@ -1,19 +1,10 @@
 {
-    "id": "111dc116-54c8-4330-860c-94772b45126d",
+    "id": "11977cb9-7c75-461d-8ce9-e1095bd3228a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_obstacle",
+    "name": "obj_elevator_room_gradient",
     "eventList": [
-        {
-            "id": "4bf6ec48-6c71-498f-b9b1-b578407c0bec",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "111dc116-54c8-4330-860c-94772b45126d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "06c997b9-0b93-4d4e-9b14-0b873699736c",
-    "visible": false
+    "spriteId": "f50e7791-741c-4566-9338-653627a70e14",
+    "visible": true
 }
