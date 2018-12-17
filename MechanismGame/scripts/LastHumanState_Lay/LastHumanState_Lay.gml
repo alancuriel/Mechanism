@@ -7,3 +7,7 @@ if(awake)
 if(!audio_is_playing(snd_LH_laying)) {
 	audio_play_sound(snd_LH_laying, 40, false);
 }
+
+if(!instance_exists(obj_player)) {
+	audio_stop_sound(snd_LH_laying);
+}
