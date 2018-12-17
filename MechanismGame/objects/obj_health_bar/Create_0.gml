@@ -9,3 +9,7 @@ image_speed  = 0;
 image_index = 0
 
 hitCount = 0;
+
+last_save_room = rm_basement_1;
+last_save_room_x = 130;
+last_save_room_y = 440;
