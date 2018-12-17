@@ -16,7 +16,7 @@
 
 // activating elevator
 if (instance_exists(obj_player)) {
-	if((abs(abs(x-obj_player.x) < 8) && abs(abs(y-obj_player.y) < 200)) || (abs(abs(obj_elevator_upper.x-obj_player.x) < 8) && abs(abs(obj_elevator_upper.y-obj_player.y) < 200))) {
+	if((abs(abs(x-obj_player.x) < 8) && abs(abs(y-obj_player.y) < 200)) || (abs(abs(obj_elevator.x-obj_player.x) < 8) && abs(abs(obj_elevator.y-obj_player.y) < 200))) {
 		if(!is_lift_activate && ! is_player_already_on) {	// if the lift is not activated, activate it
 			audio_play_sound(snd_elevator_activate, 50, false);
 			is_lift_activate = 1;	

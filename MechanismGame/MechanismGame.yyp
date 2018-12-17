@@ -2255,6 +2255,14 @@
             }
         },
         {
+            "Key": "ac730ace-5ee2-4635-9735-01effd10d18f",
+            "Value": {
+                "id": "63ec3b98-3c0d-46fe-aca9-befde0c641b3",
+                "resourcePath": "objects\\obj_elevator_upper\\obj_elevator_upper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad52120b-d694-4a96-9024-b50114fd0ce0",
             "Value": {
                 "id": "7a77af8d-d8ce-44fa-ae98-b36d080c1bc9",
